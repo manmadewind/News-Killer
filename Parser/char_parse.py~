@@ -1,0 +1,56 @@
+
+
+def isChinese(u_char):
+    if u_char >= u'\u3300' and u_char <= u'\u9fff':
+        return True
+    return False
+
+def isEnglish(u_char):
+    # lower char [0061, 007a]
+    # upper char [0041, 005a]
+    return judge(u_char, u'\u0061', u'\u007a') or judge(u_char, u'\u0041', u'\u005a')
+'''
+    # lower char [0061, 007a]
+    if c > u'\u0061' and c < u'\u007a':
+        return True
+
+    # upper char [0041, 005a]
+    if c > u'\u0041' and c < u'\u005a':
+        return True
+    return False
+'''
+
+def isDigit(u_char):
+    return judge(u_char, u'\u0030', u'\u0039')
+
+# !!!Not implement!!!
+def isSymbol(u_char):
+    #全角符号[fe30, ffa0]
+    return False
+#return judge(u_char, u'\ufe30', u'\uffa0')
+
+def judge(u_char, lower, upper):
+    if u_char >= lower and u_char <= upper:
+        return True
+    return False
+
+def gram_2(content):
+    cn_dict = dict()
+    i = 0
+    while i < len(content):
+        if isChinese(content[i]):
+            if (i + 1) < len(content) and isChinese(content[i + 1]):
+                term = content[i:i + 2]
+                print term
+            i = i + 1
+            
+        elif isEnglish(content[i]):
+            delta = 1
+            while (i + delta) < len(content) and isEnglish(content[i + delta]):
+                delta += 1
+            term = content[i:i + delta]
+            print term
+            i += delta
+        else:
+            i += 1
+        
