@@ -36,16 +36,6 @@ which is:
 """ % (sys.exc_value, sys.version)
         sys.exit(1)
 
-
-class Article:
-    title   = ""
-    ref     = ""
-    link    = ""
-    summary = ""
-    content = ""
-    date    = ""
-
-
 def dump(model, fileName):
     print '-dump %s' % fileName
     cPickle.dump(model, codecs.open(fileName, 'wb', 'utf-8'))
@@ -57,8 +47,16 @@ def load(fileName):
     return cPickle.load(open(fileName, 'rb'))
 
     
-def fetch_rss(rss_url):
-    article_list = parse_rss(rss_url)
+class Article:
+    title   = ""
+    ref     = ""
+    link    = ""
+    summary = ""
+    content = ""
+    date    = ""
+
+def start(rss_url):
+    article_list = fetch_rss(rss_url)
     print 'fetch done'
     
     for article in article_list:
@@ -93,7 +91,7 @@ def get_content(url):
     content = get_raw_content(url, soup)
     return content
 
-def parse_rss(url):
+def fetch_rss(url):
     entries = 'entries'
     rss_source = feedparser.parse(url)
     rss_source_title = rss_source['feed']['title']
@@ -153,7 +151,7 @@ def generateFileName(url):
     name = re.sub('-', '_', name)
     return str('article/%s.txt' % name)
 
-#rss_url = 'http://www.huxiu.com/rss/1.xml'
-#rss_url = 'http://www.36kr.com/feed'
-#a_url = 'http://www.huxiu.com/article/14099/1.html'
-#fetch_rss(rss_url)
+rss_url = 'http://www.huxiu.com/rss/1.xml'
+rss_url = 'http://www.36kr.com/feed'
+a_url = 'http://www.huxiu.com/article/14099/1.html'
+#start(rss_url)

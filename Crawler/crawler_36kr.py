@@ -2,7 +2,7 @@
 #-*- coding:utf-8 -*-
 
 '''
-For HuXiu.
+For 36Kr
 '''
 try:
     from bs4 import BeautifulSoup
@@ -27,9 +27,8 @@ which is:
         sys.exit(1)
 	
 def get_info(soup):
-    # url = 'http://www.huxiu.com/article/13698/1.html'
     if soup is None:
-	return
+	return None
     
     title = get_title(soup)
     content = clean_content(get_raw_content(soup))
@@ -37,13 +36,28 @@ def get_info(soup):
 
     
 def get_title(soup):
+    if soup is None:
+        return None
+    
     raw_title = soup.find('h1')
     return clean_content(raw_title)
 
 def get_raw_content(soup):
     try:
-        content = soup.find('', {"id": "article_content"})
+        if soup is None:
+            return None
+        
+        div = soup.find('div', {'class':'mainContent sep-10'})
+        p_list = div.find_all('p')
+        if p_list == None or len(p_list) == 0:
+            print 'no content'
+            return None
+
+        content = ''
+        for p in p_list:
+            content += str(p)
     except:
         print 'Exception in get_raw_content()'
+        return None
     return content
     

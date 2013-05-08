@@ -8,7 +8,15 @@ import re
 import sys
 import io
 import codecs
-      
+import cPickle
+from django.utils.html import strip_tags
+
+def dump(model, fileName):
+    cPickle.dump(model, codecs.open(fileName, 'wb', 'utf-8'))
+
+def load(fileName):
+    return cPickle.load(open(fileName, 'rb'))
+
 def write_file_utf8(content, fileName='noname.txt'):
     try:
 	content = to_unicode(content)
@@ -32,14 +40,13 @@ def to_unicode(obj, encoding='utf-8'):
     if isinstance(obj, basestring):
        if not isinstance(obj, unicode):
        	  obj = unicode(obj, encoding)
-	  print 'unicode done'
-
     return obj
 
 
 def clean_content(content):
     try:
-        content = str(content)
+        content = to_unicode(content).encode('utf-8')
+        content = strip_tags(content)
         content = re.sub("<img src=[^>]* alt=\"", "", content)
         content = re.sub("<.+?>", "", content)
         content = re.sub("&quot;", "\"", content)
@@ -47,10 +54,13 @@ def clean_content(content):
         content = re.sub("&amp;", "&", content)
         content = re.sub("&lt;", "<", content)
         content = re.sub("&gt;", ">", content)
-	content = re.sub('%nbsp;', "", content)
+	content = re.sub('&nbsp;', "", content)
+        return content
+    
     except:
-        print 'Exception in clean_content'
-    return str(content)
+        print '---Exception in clean_content'
+        return content
+
 
 def write_file(content, fileName='noname.txt'):
     try:
