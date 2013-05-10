@@ -1,0 +1,111 @@
+<html Content-Type: text/html; charset=UTF-8>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <table style="width:780px; background-color:#f7f8f7; margin:auto;">
+      <tbody>
+	<!-- ITEM START-->
+	<tr>
+	  <td width="80px"></td>
+	  <td  colspan="2">
+	    <div style="background-color:#ea8d8d; width:86px;height:80px;line-height:40px; padding-left:0px; font-family:Arial; color:#FFFFFF; font-size:36px;">
+	      	      One Page
+	    </div>
+	  </td>
+	</tr>
+
+	{% for article in container.article_list %}
+	<tr>
+	  <td width = "80px"></td>
+
+	  <td style="border-bottom: 1px solid #ddd;">
+	    <div>
+	      <!-- Title -->
+	      <div style="margin-top:20px;margin-bottom:14px;">
+	      <a href="{{ article.link }}"style="color: #212e32; font-size:20px; font-family:'Microsoft YaHei'; text-decoration:none;">
+	      {{ article.title }}
+	      </a>
+	      </div>
+	      <!--Ref-->
+	      <span style="background-color:#8aba7a; color:#ffffff;font-size:12px; padding:2px;">
+	      {{ article.ref }}
+	      </span>
+
+	      <!--Date-->
+	      <span style="background-color:#bbbbbb; color:#ffffff;font-size:12px; padding:2px; margin-left:1px;">
+	      {{ article.date }}
+	      </span>
+	      
+	      <!-- Link-->
+	      <a href='{{ article.link }}' style="color:#777777;font-size:12px;margin-left:10px;text-decoration:none;">
+	      摘要
+	      </a>
+	      <span>&nbsp;</span>
+	      <a href='{{ article.link }}' style="color:#777777;font-size:12px;margin-left:10px;text-decoration:none;">
+	      原文
+	      </a>
+	      
+	      <!-- Summary-->
+	      <p style="color: #616161; font-size:14px; font-family:'宋体'; line-height: 26px; margin-bottom:6px;margin-top:16px;">
+	      {{ article.summary }}
+	      </p>
+	    </div>
+	  </td>
+
+	  <td width = "80px"></td>
+	</tr>
+	{% empty %}
+	  <p>EMPTY...</p>
+	{% endfor %} <!--for article_list-->
+	<!-- ITEM END -->
+	
+      </tbody>
+    </table>
+
+    <table style="width:780px; background-color:#f7f8f7; margin:auto;">
+      <tbody>
+	<tr>
+	  <td  colspan="4">
+	    <div style="height:100px;width:70px; color:#ee9999; font-size:70px;margin-top:30px;margin-bottom:10px;margin-left:353px;line-height:40px;border-bottom-style:dotted;border-bottom-width:1px;border-bottom-color:#ffdddd">
+	      	      一览
+	    </div>
+	  </td>
+	</tr>
+	
+	{% for title in container.title_list %}
+	<!--NEW-->
+	<tr>
+	  <td width="80px"></td>
+	  <!-- Label -->
+	  <td width="150px" style="text-align:right;">
+	    <!--labels-->
+	    <!--
+	    vip #d35
+	    ip #29a
+	    normal #27a
+	    -->
+	    {% for label in title.label_list %}
+	      <span style="background-color:#{{ label.color }}; color:#ffffff;font-size:14px; padding:2px;margin-left:1px;">
+	      {{ label.text }}
+	      </span>
+	    {% endfor %}
+	  </td>
+	  
+	  <td style="text-align:left;">
+	    <a href="{{ title.link }}" style="color: #616161; font-size:14px; font-family:'宋体'; line-height: 26px;text-decoration:none;">
+		{{ title.text }}
+	    </a>
+	  </td>
+	  <td width="170px;">
+	    <a href="{{ title.link }}"
+	    style="color:#778877;font-size:12px;padding:4px;text-decoration:none;">
+	    摘要</a><span>.</span>
+	    <a href="{{ title.origin }}" style="color:#778877;font-size:12px;padding:4px;text-decoration:none;">原文</a>	    
+	  </td>
+	</tr>
+	{% endfor%}
+      </tdoby>
+    </table>
+  </body>
+</html>
