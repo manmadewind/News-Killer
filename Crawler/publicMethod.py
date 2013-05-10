@@ -44,8 +44,16 @@ def to_unicode(obj, encoding='utf-8'):
 
 
 def clean_content(content):
+
+    print 'in clean_content'
+    print type(content)    
+    print content
+    if content is None or content == '':
+        return ''
     try:
-        content = to_unicode(content).encode('utf-8')
+        content = to_unicode(content)
+        #?.encode('utf-8') why?
+        
         content = strip_tags(content)
         content = re.sub("<img src=[^>]* alt=\"", "", content)
         content = re.sub("<.+?>", "", content)
@@ -59,6 +67,7 @@ def clean_content(content):
     
     except:
         print '---Exception in clean_content'
+        log_error('cleaning')        
         return content
 
 
