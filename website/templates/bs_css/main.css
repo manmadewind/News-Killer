@@ -1,0 +1,65 @@
+#hero
+{
+    font-family:kaiti,楷体,宋体;
+    height:100px;
+    width:70px;
+    color:#ffffff;
+    background-color:#ee9999;
+    font-size:70px;
+    margin-top:30px;
+    margin-bottom:10px;
+    margin-left:353px;
+    line-height:40px;
+    border-bottom-style:dotted;
+    border-bottom-width:1px;
+    border-bottom-color:#ffdddd;
+}
+.item {
+
+}
+.item span
+{
+     display: inline-block;   
+}
+
+.label_area {
+    width: 150px;
+    text-align: right;
+    
+}
+.label_area span {
+    font-size: 14px;
+}
+.title{
+    color: #445;
+}
+
+.title_area {
+    width: 460px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.more_area {
+    width: 80px;
+
+}
+.summary {
+    border-left: 2px solid #faa;    
+    max-width: 520px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+    margin-left: 116px;
+    padding-left: 8px;
+    color: #555;
+}
+
+.l_1{
+    background-color: #909;
+}
+.l_2 {
+    background-color: #27a;
+}
+.l_3 {
+    background-color: #29a;
+}

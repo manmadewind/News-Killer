@@ -29,7 +29,6 @@ def judge(u_char, lower, upper):
     return False
 
 
-
 def gram_2(content):
     cn_dict = dict()
     i = 0
