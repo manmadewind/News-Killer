@@ -7,18 +7,19 @@
 from char_parse import isEnglish, isChinese
 
 def get_labels(u_content):
-    weight_dict = read_weight_dict()
-    terms = get_words(u_content)
+    weight_dict = __read_weight_dict()
+    terms = __get_words(u_content)
     
     temp_dict = dict()
     for term in terms:
         if term in weight_dict:
             temp_dict[term] = weight_dict[term]
+            print '%s,%f' % (term, temp_dict[term])
             
     sorted_list = sorted(temp_dict.items(), key = lambda x: x[1], reverse = True)
     return sorted_list[:4]
 
-def get_words(u_content):
+def __get_words(u_content):
     raw_strings = []
     i = 0
     while i < len(u_content):
@@ -53,6 +54,6 @@ def get_words(u_content):
     return words
 
 
-def read_weight_dict():
+def __read_weight_dict():
     import cPickle
-    return cPickle.load(open('data/weight.dict'))
+    return cPickle.load(open('data/words.dict'))
