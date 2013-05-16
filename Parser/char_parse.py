@@ -64,7 +64,7 @@ def find_similiar_word(term_list):
     '''
     candidate_dict = dict()
     termCount_dict = __get_termcount_dict()
-    weight_dict = __load('data/bigram_detail.dict')#__get_weight_dict()
+    weight_dict = __load('__.data/bigram_detail.dict')#__get_weight_dict()
     
     #real_words = __get_train_words()
     #term_list.append(real_words[100])
@@ -72,7 +72,7 @@ def find_similiar_word(term_list):
     result_list = term_list
 
     content_list = []
-    path = './article_train/'
+    path = '__.article_train/'
     for f in os.listdir(path):
         if f[0] == '.':
             continue
@@ -137,10 +137,10 @@ def find_similiar_word(term_list):
     result_dict = dict()
     for term in result_list:
         result_dict[term] = __get_weight(term, weight_dict) # tf*idf
-    __dump(result_dict, 'data/words.dict')
+    __dump(result_dict, '__.data/words.dict')
 
     try:
-        file1 = open('data/new_word_detail.txt', 'w')
+        file1 = open('__.data/new_word_detail.txt', 'w')
         for k,v in sorted(result_dict.items(), key=lambda x:x[1], reverse=True):
             file1.write('%s\t%f\n' %(k.encode('utf-8'),v))
 
@@ -277,7 +277,7 @@ def __isValid(term):
 def __get_train_words():
     print 'IN get train words!'
     real_words = []
-    f = open('train_words.txt', 'r')
+    f = open('__.train_words.txt', 'r')
     for i in f.readlines():
         if ':' not in i:
             real_words.append(i.decode('utf-8').replace('\n',''))
@@ -288,7 +288,7 @@ def __get_train_words():
 
 def __get_termcount_dict():
     import cPickle
-    return cPickle.load(open('data/termCount.dict', 'rb'))
+    return cPickle.load(open('__.data/termCount.dict', 'rb'))
 
 
 '''

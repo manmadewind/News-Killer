@@ -7,7 +7,9 @@ class Article(models.Model):
     publish_date = models.DateField(null=True)
     link = models.URLField()
     summary = models.TextField(null = True)
+    auto_summary = models.TextField(null = True)
     img = models.URLField(max_length = 300, null=True)
+    labels = models.TextField(null=True)
     
     hit = models.IntegerField()
     like = models.IntegerField()#models.CommaSeparatedIntegerField()

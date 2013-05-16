@@ -10,13 +10,23 @@
   </head>
 
 <body>
+    <div id="top_bar" class="navbar navbar-fixed-top">
+    </div>
     <div class="container">
+
         <header id="hero">
             一览
         </header>
+      
         <div class="content" id="item_list">
 	    {% for article in article_list %}
-	    <div class="item">	      
+	    <div class="item"
+	        {% if forloop.first %}
+	            style="border:none;">
+	        {% else %}
+	            >
+	    {% endif %}
+	      
 	      <div class="light">
 	          <span class="label_area">
 		      {% for label in article.label_list %}
@@ -47,6 +57,11 @@
 	</div><!--Content-->
 
 	
+    </div><!--CONTAINER-->
+
+        
+    <div id="footer">
+	<a href="http://marvin-space.info/blog">Marvin</a>'s Coloful Life!
     </div>
 </body>
 </html>    

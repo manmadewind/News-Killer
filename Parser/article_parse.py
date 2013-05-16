@@ -29,7 +29,7 @@ def train():
     
     # get train set
     files = []
-    path = './article_train/'
+    path = '__.article_train/'
     for f in os.listdir(path):
         if f[0] == '.':
             continue
@@ -45,8 +45,8 @@ def train():
     print 'parse done'
     
     print 'begin to dump'
-    __dump(raw_biGram_dict, 'data/raw_biGram_dict.dict')
-    __dump(termOfArticle_dict, 'data/termOfArticle.dict')
+    __dump(raw_biGram_dict, '__.data/raw_biGram_dict.dict')
+    __dump(termOfArticle_dict, '__.data/termOfArticle.dict')
     print 'dump done'
     print 'detail start'
     __generateDetail(raw_biGram_dict, termOfArticle_dict, docCount)
@@ -72,10 +72,10 @@ def __generateDetail(raw_dict, sum_dict, sum_doc):
         idf = math.log(float(sum_doc) / len(raw_dict[k][1:]))
         detail_dict[k] = [tCount * idf, tCount, idf]
         
-    __dump(detail_dict, 'data/bigram_detail.dict')
+    __dump(detail_dict, '__.data/bigram_detail.dict')
 
     
-    file = open('data/termCount.txt','w')
+    file = open('__.data/termCount.txt','w')
     for k,v in tc_dict.iteritems():
         # word, tcount, dcount
         file.write('%s\t%d\t%d\t%f\n' % (k.encode('utf-8'), v, len(raw_dict[k][1:]),  math.log(float(sum_doc) / len(raw_dict[k][1:]))))
