@@ -5,6 +5,7 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+    url('refine', 'rs_demo.onepage.refine'),
     url(r'show', 'rs_demo.onepage.show'),
     url(r'^mail$', 'rs_demo.mail_deliver.deliver'),
     url(r'^title$', 'rs_demo.mail_deliver2.deliver'),

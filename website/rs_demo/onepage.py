@@ -14,16 +14,26 @@ from django.core.mail import EmailMultiAlternatives
 # test
 from django.views.static import * 
 from django.conf import settings
-from article_refiner import Article, Label
+
+# mine
+# from public_model import Article, Label
+import public_model
+import codecs
+import pickle
 
 def refine(request):
+    t = get_template('1-lan.html')    
     article_list = __load_articles()
-    t = get_template('1-lan.html')
     html = t.render(Context({'article_list': article_list}))    
     f = open('static/page.html', 'w')
     f.write(html.encode('utf-8'))
     f.close()
     return HttpResponse(html)
+
+def __load_articles():
+    
+    f = open('static/res/articles_refine.list', 'rb')
+    return pickle.load(f)
 
 def show(request):
     '''
@@ -85,9 +95,6 @@ def generate_html_mail(list):
     
 
 def get_fulltext(url, summary):
-    '''
-    TODO:
-    '''
     soup = get_html_soup(url)
     
 
