@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="static/bs_css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="static/bs_css/main.css">
+    <script type="text/javascript" src="static/bs_js/jquery.min.js"></script>
+    <script type="text/javascript" src="static/bs_js/bootstrap.min.js" charset="utf-8"></script>
+    <title>Sign up</title>
+  </head>
+
+<body>
+    <div id="top_bar" class="navbar navbar-fixed-top">
+    </div>
+    <div class="container">
+
+        <header id="hero">
+            一览
+        </header>
+      
+
+<form class="form-horizontal" action="/regist" method="post">
+  <div class="control-group">
+    <label class="control-label" for="inputEmail">邮箱</label>
+    <div class="controls">
+      <input type="text" id="inputEmail" name="mail" placeholder="Email">
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">密码</label>
+    <div class="controls">
+      <input type="password" id="inputPassword" name="psw" placeholder="Password">
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox">
+        <input id="pushmail" name="pushmail" value="pushmail" type="checkbox">接收邮件投递
+      </label>
+      
+      <button type="submit" class="btn" value="regist">注册!</button>
+    </div>
+  </div>
+</form>
+</div><!--CONTAINER-->
+
+        
+    <div id="footer">
+	<a href="http://marvin-space.info/blog">Marvin</a>'s Coloful Life!
+    </div>
+</body>
+</html>    

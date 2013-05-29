@@ -1,0 +1,68 @@
+<html Content-Type: text/html; charset=UTF-8>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <table style="width:780px; background-color:#ffffff; margin:auto;border-collapse:collapse;font-family: 'STHeitiSC Light', 'Microsoft YaHei',华文中宋, 宋体,Century, Calibri, sans-serif;">
+      <tbody>
+	<!-- ITEM START-->
+	<tr>
+	  <td  colspan="4">
+	    <div style="text-shadow: #fee 0px 1px; line-height: 18px; font-family: Arial; color: #e58d8d; font-size: 30px; margin-bottom: 40px;padding-top: 2px;height: 30px; margin-left:282px;">
+	      <p style="font-size:28px; font-weight:bold;font-family:'Microsoft YaHei'">一览</p>
+	    </div>
+	  </td>
+	</tr>
+	<tr style="height:2px;background-color:#e48d8d;">
+	  <td colspan="4">
+	</tr>
+
+	<!--NEW-->
+	{% for article in article_list %}
+
+	<tr style="border-bottom: 1px solid #ddd; height:60px;">
+
+	  <!-- Label -->
+	  <td width="30px"></td>
+	  
+	  <td width="220px" style="text-align:right;">
+	    <div style="height:60px; line-height:60px;">
+	    {% for text,color in article.label_dict.items %}	  
+	    <span style="color:{{ color }}; font-size:14px;">
+	    {{ text }}
+	    </span>
+	      {% if forloop.last %}
+	      {% else %}
+	      <span style="font-size:12px; color:#ddd;">
+	      /
+	      </span>
+	      {% endif %}
+	    {% endfor %}
+	    </div>
+	  </td>
+	  
+	  <td style="text-align:left;padding-left:30px;">
+	    <div style="height:60px; line-height:60px;">	    
+	    <a href="{{ article.link}}" style="color: #212e32; font-size:14px; font-family:'Microsoft YaHei';text-decoration:none;">
+	    {{ article.title }}
+	    </a>
+	    </div>
+	  </td>
+	  <td width="30px"></td>	  
+	</tr>
+
+	{% endfor %}
+
+	<tr style="font-size: 12px;color: #445;border-top:2px solid #bbbbbb;height: 30px;text-align:center;">
+
+	    <td colspan="4">
+	      <p>
+	      每日邮件推送(Beta内测版)，推送当日较为热门的几条新闻给用户。旨在尝试将新闻碎片化。
+	      </p>
+	      
+	    </td>
+	</tr>
+      </tbody>
+    </table>
+  </body>
+</html>

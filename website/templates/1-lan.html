@@ -29,9 +29,9 @@
 	      
 	      <div class="light">
 	          <span class="label_area">
-		      {% for label in article.label_list %}
-   	                  <span class="label {{ label.type }}">
-		              {{ label.text }}
+		      {% for text,type in article.label_dict.items %}		
+   	                  <span class="label {{ type }}">
+		              {{ text }}
 		          </span>
 		      {% endfor %}
 	          </span>
@@ -45,7 +45,8 @@
 	      
 
 	      <div id="{{ article.summaryid }}" class="summary accordion-body collapse">
-		<a class="l_link" href="{{ article.link }}"> {{ article.ref }} </a>
+		<a class="l_link" href="{{ article.link }}"> {{ article.origin }} </a>
+		<span class="l_date"> {{ article.date }} </span>
 
 		<p>
 		  {{ article.summary }}

@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'rsdb.db',                      # Or path to database file if using sqlite3.
+        'NAME': 'onepage_db.db',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': '',
         'PASSWORD': '',
@@ -23,8 +23,8 @@ DATABASES = {
 # Email Settings
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'username here'
-EMAIL_HOST_PASSWORD = 'pws here'
+EMAIL_HOST_USER = 'manmadewind@gmail.com'
+EMAIL_HOST_PASSWORD = '!255@Google@'
 EMAIL_PORT = 587
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
@@ -88,7 +88,7 @@ STATICFILES_DIRS = (
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
 # Make this unique, and don't share it with anybody.
@@ -125,13 +125,17 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
-    'rs_demo',
-#    'django.contrib.auth',
-#    'django.contrib.contenttypes',
-#    'django.contrib.sessions',
-#    'django.contrib.sites',
-#    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    #    'rs_demo',
+    'one_page',
+    'parser',
+    'crawler',
+    'django.contrib.staticfiles', # !!! static files !!!
+    #    'django.contrib.auth',
+    #    'django.contrib.contenttypes',
+    #    'django.contrib.sessions',
+    #    'django.contrib.sites',
+    #    'django.contrib.messages',
+
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

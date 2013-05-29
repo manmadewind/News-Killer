@@ -5,10 +5,22 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    url('refine', 'rs_demo.onepage.refine'),
-    url(r'show', 'rs_demo.onepage.show'),
-    url(r'^mail$', 'rs_demo.mail_deliver.deliver'),
-    url(r'^title$', 'rs_demo.mail_deliver2.deliver'),
+    #---crawler---#
+    url('crawler_initial', 'crawler.views.startCrawler'),
+    url('crawler_switch', 'crawler.views.switchCrawler'),
+
+    #---cleaner---#
+    url(r'refine', 'parser.views.refine'),
+    url(r'build', 'parser.views.build'),
+
+    #---one page---#
+    url(r'show', 'one_page.onepage.show'),
+    #url(r'^mail$', 'one_page.mail_deliver.deliver'),
+    url('makemail', 'one_page.mail_deliver3.generate_mail'),
+    url(r'^send$', 'one_page.mail_deliver3.deliver'),
+    url(r'^regist$', 'one_page.views.regist'),
+    url(r'^regist_form$', 'one_page.views.regist_form'),    
+    url(r'^$', 'one_page.onepage.show'),
     # Examples:
     # url(r'^$', 'website.views.home', name='home'),
     # url(r'^website/', include('website.foo.urls')),
