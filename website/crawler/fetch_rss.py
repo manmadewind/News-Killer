@@ -8,14 +8,13 @@ try:
     import sys
     import feedparser
     import codecs
-    import json
-    import md5
     import time
 
     # Mine
+    from onepage.models import Article        
     from onepage.publicMethod import errorCatcher, to_unicode, clean_html_tags
     import crawler_huxiu, crawler_36kr, crawler_geekpark, crawler_163
-    from onepage.models import Article    
+
 except ImportError:
         print >> sys.stderr, """\
 There was a problem importing one of the Python modules required.
@@ -88,7 +87,7 @@ def __parse_rss(url):
             continue        
 
         article          = Article()
-        article.content  = clean_html_tags(content)
+        article.content  = clean_html_tags(__get_raw_content(entity.link))
         article.origin   = to_unicode(rss_source_title)
         article.title    = to_unicode(entity.title)
         article.link     = to_unicode(entity.link)

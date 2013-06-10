@@ -126,7 +126,7 @@ TEMPLATE_DIRS = (
 
 INSTALLED_APPS = (
     #    'rs_demo',
-    'one_page',
+    'onepage',
     'parser',
     'crawler',
     'django.contrib.staticfiles', # !!! static files !!!
