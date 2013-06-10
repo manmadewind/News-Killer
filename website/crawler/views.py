@@ -6,6 +6,11 @@ from django.views.static import *
 from django.conf import settings
 # mine
 from crawler_thread import CrawlerThread
+import fetch_rss
+
+def crawler(request):
+    fetch_rss.start()
+    return HttpResponse('Fetch Done.')
 
 g_crawlerThread = CrawlerThread()
 def startCrawler(request):

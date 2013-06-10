@@ -8,7 +8,7 @@ urlpatterns = patterns('',
     #---crawler---#
     url('crawler_initial', 'crawler.views.startCrawler'),
     url('crawler_switch', 'crawler.views.switchCrawler'),
-
+    url('^crawler$', 'crawler.views.crawler'),
     #---cleaner---#
     url(r'refine', 'parser.views.refine'),
     url(r'build', 'parser.views.build'),

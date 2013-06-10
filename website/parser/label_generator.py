@@ -31,7 +31,7 @@ def get_labels_jieba(u_title, u_content=""):
             
     # use jieba
     # load user dict first
-    jieba.load_userdict('static/res/__.dicts/manmade_dict.txt') 
+    # ##jieba.load_userdict('static/res/__.dicts/manmade_dict.txt') 
     labels = jieba.analyse.extract_tags(u_title, 4 - len(result_dict)) # extract 3+1 first    
     temp_max = 0
     prettyimportant = ''

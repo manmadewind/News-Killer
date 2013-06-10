@@ -23,8 +23,8 @@ DATABASES = {
 # Email Settings
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'manmadewind@gmail.com'
-EMAIL_HOST_PASSWORD = '!255@Google@'
+EMAIL_HOST_USER = 'USERNAME'
+EMAIL_HOST_PASSWORD = 'PSW'
 EMAIL_PORT = 587
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False

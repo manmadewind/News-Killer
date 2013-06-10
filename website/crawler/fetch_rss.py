@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
-
-
 try:
     from bs4 import BeautifulSoup
     import urllib2		
@@ -11,19 +9,13 @@ try:
     import feedparser
     import codecs
     import json
-    import md5    
+    import md5
+    import time
+
     # Mine
-    from publicMethod import to_unicode, clean_content, log_error
-
-    from public_model import Article
-    # crawlers
+    from onepage.publicMethod import errorCatcher, to_unicode, clean_html_tags
     import crawler_huxiu, crawler_36kr, crawler_geekpark, crawler_163
-    
-    #    import crawler_36kr
-    # http://www.36kr.com/feed
-
-    #    import crawler_geekpark
-    
+    from onepage.models import Article    
 except ImportError:
         print >> sys.stderr, """\
 There was a problem importing one of the Python modules required.
@@ -40,167 +32,108 @@ which is:
 """ % (sys.exc_value, sys.version)
         sys.exit(1)
 
+
 '''
-Global Varibles
+===Global===
 '''
-g_link_md5_list = []
 g_fileName_rssList = 'static/pubconstant/c_rss_list.txt'
-g_fileName_md5list = 'static/pubconstant/md5list_utf8.txt'
-g_fileName_result_dir = 'static/res/__.article_raw/'
+sys.setdefaultencoding('utf-8')
+
 
 def start():
-    __initial_md5_list()
     for rss in __load_rss_list():
         print '*** *** Now begin to fetch rss %s *** ***' % rss
         fetch_rss(rss)
 
 
 def fetch_rss(rss_url):
+    rss_url = to_unicode(rss_url)
     '''
     获取一个rss地址中的所有内容，包括文章内容
+    ! 返回内容均为unicode 
     '''
     
     article_list = __parse_rss(rss_url)
-    print ('Fetch Completely! %s' % to_unicode(rss_url))
+    print ('Fetch Completely! %s %s' \
+           % (rss_url, time.ctime()))
 
     print 'ALL DONE'
 
-def __dump(article, fileName):
-    '''
-    JSON 序列化文档
-    '''
-    try:
-        print '-dump %s' % fileName
-        json.dump(article.__dict__, codecs.open(g_fileName_result_dir + fileName + '.json_utf8.txt', 'wb', 'utf-8'))
-        print '=dump %s' % fileName
-    except ex:
-        print ex
-
-def get_html_soup(url):
-    try:
-        html_content = ""
-        html_content = urllib2.urlopen(url).read()
-        soup = BeautifulSoup(html_content)
-        return soup
-    except:
-        print 'Exception in get_html()'
-        return None
-
-def get_content(url):
-    soup = get_html_soup(url)
-    if soup is None:
-        return
-
-    content = __get_raw_content(url, soup)
-    return content
 
 def __parse_rss(url):
-    entries = 'entries'
+    '''
+    获取一个rss地址中的所有内容，包括文章内容
+    ! 返回内容均为unicode    
+    * 出错返回None
+    '''
+
     rss_source = feedparser.parse(url)
-    rss_source_title = rss_source['feed']['title']
-    
-    if (rss_source[entries] is None or
-        len(rss_source[entries]) == 0):
+    if rss_source is None or\
+        rss_source['feed'] is None or\
+        rss_source['feed']['title'] is None or\
+        rss_source['entries'] is None:
+        print 'invalid RSS source %s' % url
         return None
-    
+
+
+    rss_source_title = rss_source['feed']['title']    
+    if (rss_source['entries'] is None or\
+        len(rss_source['entries']) == 0):
+        return None
+
+
     article_list = []
-    for entity in rss_source[entries]:
+    for entity in rss_source['entries']:
         if __is_url_new(entity.link) == False:
-            continue
-        
-        content = get_content(entity.link)
-        if content == "":
-            continue
-        
-        article = Article
-        article.origin  = rss_source_title
-        article.content = content
-        article.title   = entity.title
-        article.link    = entity.link
-        article.summary = entity.summary
-        article.date    = entity.published
-        
-        article = __clean_article(article)
-        
+            continue        
+
+        article          = Article()
+        article.content  = clean_html_tags(content)
+        article.origin   = to_unicode(rss_source_title)
+        article.title    = to_unicode(entity.title)
+        article.link     = to_unicode(entity.link)
+        article.summary  = to_unicode(entity.summary)
+        article.pub_time = to_unicode(__parseTime(entity.published))
+
+        article.save()
         article_list.append(article)
-        try:
-            print '-dump %s' % article.link
-            __dump(article, __generateFileName(article.link))
-            print '=dump %s done'
-        except:
-            print 'ERROR!!!except in dump! %s' % article.link
-            continue
-        #save(article, generateFileName(article.link))
+        # -for entity
     return article_list
 
-def __clean_article(article):
+
+def __parseTime(raw_time):
+    '''
+    解析发布时间，将其同意化为格式——%Y-%m-%d %H:%M:%S
+    '''
+
+    pattern = '.+ '
+    m = re.match(pattern, raw_time)
+    if m is None:
+        return time.strftime('%Y-%m-%d %H:%M:%S')
     try:
-        article.origin  = to_unicode(article.origin)
-        article.content = to_unicode(clean_content(article.content))
-        article.title   = to_unicode(article.title)
-        article.link    = to_unicode(article.link)
-        article.summary = to_unicode(clean_content(article.summary))
-        article.date    = to_unicode(article.date)
+        fmt = '%a, %d %b %Y %H:%M:%S'
+        t = time.strptime(raw_time, fmt)
+        return time.strftime('%Y-%m-%d %H:%M:%S', t)
     except:
-        print 'error'
-        log_error('cleaning')
-        return None
-    try:
-        print '\tafter cleaning:%s' % article.content.encode('utf-8')
-    except:
-        print 'error'
-        log_error('cleaning')        
+        return time.strftime('%Y-%m-%d %H:%M:%S')
         
-    return article
+def __is_url_new(p_link):
+    '''
+    判断某个链接是否尚未被采集
+    '''
 
-def __get_raw_content(url, soup):
-    print 'get_raw_content:%s' % url
-    if 'huxiu.com' in url:
-        print 'huxiu!'
-        return crawler_huxiu.get_raw_content(soup)
-
-    if '36kr.com' in url:
-        print '36kr!'
-        return crawler_36kr.get_raw_content(soup)
-
-    if 'geekpark.net' in url:
-        print 'geekPark!'
-        return crawler_geekpark.get_raw_content(soup)
-
-    if '163.com' or 'rss.feedsportal.com' in url:
-        print '163!'
-        return crawler_163.get_raw_content(soup)
-
-    print ('No Content Crawler!%s' % url)
-    p_list = soup.find_all('p')
-    content = ''
-    for p in p_list:
-        content += str(p)
-
-    return clean_content(content)
-
-        
-def __is_url_new(link):
-    global g_link_md5_list
-    global g_fileName_md5list
-    
-    m = to_unicode(md5.new(link).hexdigest())
-
-    if m in g_link_md5_list:
-        print '\tlink exist'
+    if len(Article.objects.filter(link=to_unicode(p_link))) > 0:
+        print 'old link'
         return False
-
     else:
-        print('\tnew url:%s' % m)
-        g_link_md5_list.append(m)
-        f = open(g_fileName_md5list, 'a')
-        f.write(m)
-        f.write('\n')
-        f.flush()
-        f.close()
-    return True
-
+        print 'new link~'
+        return True
+    
 def __load_rss_list():
+    '''
+    获取所有RSS源的列表
+    '''
+
     global g_fileName_rssList
     f = open(g_fileName_rssList)
     rss_list = []
@@ -208,22 +141,50 @@ def __load_rss_list():
         rss_list.append(link[:-1])
     return rss_list
 
-def __generateFileName(url):
-    name = str(url)
-    name = re.sub('http://www.', '', name)
-    name = re.sub('.html', '', name)
-    name = re.sub('/', '_', name)
-    name = re.sub('\.', '_', name)
-    name = re.sub('#', '_', name)
-    name = re.sub('%', '_', name)
-    name = re.sub('-', '_', name)
-    return str('%s' % name)
+
+def __get_raw_content(url):    
+    '''
+    获取url对应文章的粗内容(内容格式不确定，并且包含有html标记)
+    * 异常返回''
+    '''
+
+    try:
+        html_content = urllib2.urlopen(url).read()
+        soup = BeautifulSoup(html_content)
+        if soup is None:
+            return ''
 
 
-def __initial_md5_list():
-    global g_link_md5_list
-    global g_fileName_md5list
-    f = open(g_fileName_md5list, 'r')
-    for link in f.readlines():
-        g_link_md5_list.append(to_unicode(link[:-1]))
-    f.close()
+        content = __get_raw_content_by_crawler(url, soup)
+        return content
+
+    except:
+        print 'Exception in __get_raw_content()'
+        return ''    
+
+
+def __get_raw_content_by_crawler(url, soup):
+    '''
+    通过爬虫获取粗内容
+    '''
+
+    print 'Crawler is working... :%s' % url
+    if 'huxiu.com' in url:
+        return crawler_huxiu.get_raw_content(soup)
+
+    if '36kr.com' in url:
+        return crawler_36kr.get_raw_content(soup)
+
+    if 'geekpark.net' in url:
+        return crawler_geekpark.get_raw_content(soup)
+
+    if '163.com' or 'rss.feedsportal.com' in url:
+        return crawler_163.get_raw_content(soup)
+
+    print ('Unknown Url for Crawler %s' % url)
+    p_list = soup.find_all('p')
+    content = ''
+    for p in p_list:
+        content += str(p)
+
+    return clean_content(content)

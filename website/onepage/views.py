@@ -21,7 +21,8 @@ from bs4 import BeautifulSoup
 import urllib2
 
 #models
-from one_page.models import User
+from onepage.models import User
+import page
 
 def regist_form(request):
     t = get_template('regist_form.html')
@@ -71,73 +72,23 @@ def send_html_mail(subject, content, list):
     mail.attach_alternative(content, "text/html")
     mail.send()
 
-def generateCSSmail():
-    content = '\
-    <div>\
-    <style type="text/css">\
-    <h2>Mail Deliver!</h2>\
-    <p style="color:#f11">I am supposed to be RED:)</p>\
-    </div>\
-    '
-    '''
-class article:
-    title = "t"
-    ref  = "r"
-    link = "l"
-    summary = "s"
-    
-def testmail(request):
-    t = get_template('mail.html')
-    a1 = article()
-    a1.title = "HELLO!"
-    list = [a1]
-    html = t.render(Context({'article_list': list}))
-    return HttpResponse(html)
-    
-'''
-class Article:
-    title = ""
-    ref = ""
-    link = ""
-    summary = ""
-    date = ""
 
 def deliver(request):
     url = 'http://www.huxiu.com/rss/1.xml'
-    list = fetch_rss(url)
+    #list = fetch_rss(url)
+    list = []
     t = get_template('mail.html')
     html = t.render(Context({'article_list': list}))
     return HttpResponse(html)
 
-def fetch_rss(url):
-    entries = 'entries'
-    rss_source = feedparser.parse(url)
-    if (rss_source[entries] is None or
-        len(rss_source[entries]) == 0):
-        return None
-    
-    rss_source_title = rss_source['feed']['title']
-    article_list = []
-    for entity in rss_source[entries]:
-        # md5 the title
-        article = Article()
-        
-        article.title = entity.title
-        article.summary = entity.summary
-        article.link = entity.link
-        article.date = entity.published
-        article.ref = rss_source_title
-        
-        article_list.append(article)
+def build(request):
+    html = page.build()
+    return HttpResponse(html)
 
-    return article_list
+def show(request):
+    html = page.show()
+    return HttpResponse(html)
 
-def get_html_soup(url):
-    try:
-        html_content = ""
-        html_content = urllib2.urlopen(url).read()
-        soup = BeautifulSoup(html_content)
-        return soup
-    except:
-        print 'Exception in get_html()'
-        return None
+def automake(request):
+    html = page.automake()
+    return HttpResponse('AutoMakeDone.')

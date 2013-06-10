@@ -18,10 +18,10 @@ def isDigit(u_char):
     return judge(u_char, u'\u0030', u'\u0039')
 
 # !!!Not implement!!!
-def isSymbol(u_char):
+def isSymbol(u_char): #TODO:
     #全角符号[fe30, ffa0]
     return False
-#return judge(u_char, u'\ufe30', u'\uffa0')
+
 
 def judge(u_char, lower, upper):
     if u_char >= lower and u_char <= upper:
