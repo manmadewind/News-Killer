@@ -12,7 +12,6 @@ from label_generator import get_labels_jieba as get_labels
 from summary_maker import get_summary as get_summary
 from score_calculator import get_count_from_baidu as get_score
 
-sys.setdefaultencoding('utf-8')
 
 def refine():
     '''
@@ -48,5 +47,3 @@ def __load_articles_today():
                                   create_date__year=today.year,\
                                   create_date__month=today.month,\
         create_date__day=today.day)
-
-

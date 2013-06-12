@@ -2,6 +2,7 @@ from django.utils.html import strip_tags
 
 import functools
 import time
+import re
 
 def errorCatcher(func):
     @functools.wraps(func)
@@ -15,6 +16,13 @@ def errorCatcher(func):
             return None
         return result
     return __do__
+
+
+@errorCatcher
+def setDefaultEncoding():
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+    print 'reset defaultEncoding = %s' % sys.getdefaultencoding()
 
 
 @errorCatcher

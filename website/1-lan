@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="static/bs_css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="static/bs_css/main.css">
+    <script type="text/javascript" src="static/bs_js/jquery.min.js"></script>
+    <script type="text/javascript" src="static/bs_js/bootstrap.min.js" charset="utf-8"></script>
+    <title>One Page</title>
+  </head>
+
+<body>
+    <div id="top_bar" class="navbar navbar-fixed-top">
+    </div>
+    <div class="container">
+
+        <header id="hero">
+            一览
+        </header>
+      
+        <div class="content" id="item_list">
+	    
+	    <div class="item"
+	        
+	            style="border:none;">
+	        
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  苹果发布iOS 7，自iPhone发布以来最大的变化 #WWDC
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203920.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/b45b093f690720444e14c8d2aded0250.jpg&quot; /&gt;&lt;br /&gt;
+全新的iOS 7没有让我失望，让许多人失望了。&lt;/p&gt;
+
+&lt;p&gt;在发布会上，Cook称此次iOS 7的更新是iOS系统自07年iPhone发布以来最大的一次变化。iOS 7比以前更扁平，全新的图标界面设计，全新的滑动解锁功能，官方的股票和天气应用也完全重做了，后者跟Yahoo最近更新的天气应用有异曲同工之妙。&lt;/p&gt;
+
+&lt;p&gt;Ive称新系统采用了一套全新的配色方案，整个界面有很明显的半透明果冻色，曾经的拟物化设计不见了，日历、图片、信息和游戏中心全都不一样了。&lt;/p&gt;
+
+&lt;p&gt;iOS 7中的文件夹可以装上几百个应用，曾经的12-16的数量限制没有了。新版通知中心可以从任何地方（甚至锁屏界面）进入，很方便的查看所有信息。&lt;/p&gt;
+
+&lt;p&gt;iOS 7新增了一个很棒的功能，叫做控制中心（Control Center），一挥手即可进入，这里有诸多经常使用的配置功能，比如开关飞行模式，Wi-Fi设置，蓝牙，亮度等等。这个功能终于来了，许多iOS用户都曾请求苹果加上它。&lt;/p&gt;
+
+&lt;p&gt;多任务运行也有更新，现在可以支持所有应用，而不像以前只支持特定应用。新的多任务运行可以让应用在后台更新，而且不影响电池寿命，此外还能智能更选择恰当的时间，比如有更好的网络环境时更新应用。&lt;/p&gt;
+
+&lt;p&gt;新增一个点对点分享工具Airdrop，可以自动显示身边的联系人，选定联系人和内容就可以发送给对方，无需设置网络，而且有完整加密。&lt;/p&gt;
+
+&lt;p&gt;iOS在图片领域也有很多改变。新版相机应用自带各种滤镜，可以实时添加查看各种滤镜效果。新增了一个广场相机（Square Camera）的功能。图片应用重做，新增&lt;br /&gt;
+一个叫Moments的功能，可以根据时间和地点来自动组织你的图片和视频，可以缩放查看。支持iCloud分享，家人朋友可以一起创建某个图片频道，组成你的图片流。有些图片组织分享应用要小心了。&lt;/p&gt;
+
+&lt;p&gt;iOS 7中的Safari也有很多更新，比如支持全屏浏览，全新的智能搜索域，书签和标签栏也有了不同的展现方式。之前介绍的iCloud Keychain在iOS 7中也可以用，以后在手机端输密码就简单多了。&lt;/p&gt;
+
+&lt;p&gt;Siri的嗓音变了，更柔和自然，还加入了一个男性声音。整合了Twitter语音搜索，你可以直接问Siri人们在Twitter上说了些啥。&lt;/p&gt;
+
+&lt;p&gt;AppStore方面，iOS 7新增了一个“附近的流行应用”功能，可以帮你发现身边都有哪些热门应用。iOS 7可以自动更新你的应用，在AppStore中新增了一个儿童分类，方便老师和父母为学生孩子找应用。&lt;/p&gt;
+
+&lt;p&gt;苹果还将iOS 7同汽车进一步联系起来，让你在车里更好的使用iPhone和iPad，新系统名为iOS in the Car，支持Siri、地图和语音导航等功能。&lt;/p&gt;
+
+&lt;p&gt;iOS 7 Beta版现在就可以给开发者使用了，正式发布需要等到今年秋季。支持iPhone 4、iPad 2及以上机型，iPad mini及iPod touch 5。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;变革者总会招来各种非议，iOS 7也不例外。肯定会有一大半的人看不惯它，觉得Ive完全不懂设计，或者苹果是在乱搞。但是，你所看到的iOS 7并不是真正的iOS 7，等到正式发布后上手用一段时间，才会明白它为何要这么设计。iPhone 5刚出来时也是被一通骂，到头来入手用起来后又赞不绝口。iOS 7很可能也是如此。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/c7a7fbdfbe3a11edd14f0d8d79f5e958.jpg&quot; /&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  苹果发布全新Mac Pro: 12核处理器，体积仅是旧Mac Pro的1/8 #WWDC
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203919.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/916d641bfdf220fe0c88059dc5174ca4.jpg&quot; /&gt;&lt;br /&gt;
+因为iPad、iPhone而被抢尽风头的Mac Pro终于又有新料了。Mac Pro进行了完全的重设计，对此，Phil Schiller的形容是“can’t innovate any more my ass（更正：正确翻译应为‘谁tm说不能再创新的’ ）”。&lt;/p&gt;
+
+&lt;p&gt;新的Mac Pro采用了英特尔新的12核处理器，而DDR RAM也升至1866MHz，闪存存储的读取速率是1.25 GPBs。对此，苹果声称，会比旧的Mac Pro 驱动器快上10倍。此外，新的Mac Pro还可一次支持4个4K分辨率显示，所有的外接设备支持20 GBps的Thenderbolt 2连接器。而且它的体积更小，只是老Mac Pro的八分之一。&lt;/p&gt;
+
+&lt;p&gt;不过这个在美国组装的产品还没开卖，可能会在今年晚些时候问世。&lt;/p&gt;
+
+&lt;p&gt;想看36氪却苦于没有时间而漏掉了精彩新闻？关注我们的微信账号吧，每天早晚8点15分将最精彩的资讯推送给您~微信搜索wow36kr或者扫描下方二维码就可以关注我们哦！&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/1b34252bb1fe35bd15440aab7120822a.jpg&quot; /&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  Google据传将以13亿美元为Waze收购案画上句号
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203914.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/ab51e65b407a56d350aa3e21ceea5f82.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;根据以色列知名在线媒体&lt;a href=&quot;http://www.globes.co.il/serveen/globes/docview.asp?did=1000850934&amp;amp;fid=1725&quot;&gt;Globes&lt;/a&gt;的消息，Google和Waze之间价值13亿美元的并购谈判已接近尾声。这意味着关于Waze花落谁家的长达数月的揣测也将很快会有结果。Globe说，Google目前正处在积极冲刺阶段并且将会“很快”对外宣布起在对Waze的争逐中的有利位置。&lt;/p&gt;
+
+&lt;p&gt;这场并购将会把Google在地图领域内掌握的大量技术和数据与Waze的驾驶者和编图者社区紧密联系起来。有数据显示，Waze的用户在2012年共分享了9千万份交通报告并累积了96.6亿公里的里程。而在地图编辑方面，共有6万5千名来自110个国家的编图者做出了5千万次编辑，最终Waze的地图也做出了170万次改动。&lt;/p&gt;
+
+&lt;p&gt;Waze CEO Noam Bardin表示加入Google的阵营将会让Waze在同“许多个竞争者”的博弈中的获得强大的支持和资源。Waze的社会化地图也将很好地与Google Maps和Google+等服务衔接，对于Google来说这也是一着防止苹果或Facebook等对手获得此类技术的防守。&lt;/p&gt;
+
+&lt;p&gt;据Globes称，Google在和与Facebook对Waze的争夺获得优势的主要原因就是允许Waze的核心团队和高级管理层在被收购后留在发源地以色列工作。而给出10亿收购价的&lt;a href=&quot;http://www.36kr.com/p/203664.html&quot;&gt;Facebook则一直坚持要把Waze的主要部分搬到美国去&lt;/a&gt;。其实Waze已经在美国设立办公室，但是是出于合作以及战略目的，其总部从来都在以色列。苹果也曾经在这起事件中漏过脸，但是很快&lt;a href=&quot;http://www.36kr.com/p/200531.html&quot;&gt;被礼貌性拒绝了&lt;/a&gt;，事实上一个十分熟悉苹果业务的消息源称苹果此举更多程度上只是个假动作而已。&lt;/p&gt;
+
+&lt;p&gt;参考最近的Yahoo收购Tumblr，Waze事件也无非是空穴来风。虽然眼下它将被谁以什么价格买下还很难说，但是Google和Waze的积极谈判已经是板上钉钉的事了，问题就是这些谈判的结果会不会是一笔成功的交易。如果Waze被收购，不管是被谁买下，这都会是以色列历史上最大的收购案，这也让以色列成为了科技和创业版图上的一个重要地标。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  Google 官方：已收购 Waze
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203933.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/6d1bd275e4936b1fae266347d5b6c2c0.jpg!heading&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;昨天刚刚有消息传出 Google 将&lt;a href=&quot;http://www.36kr.com/p/203914.html&quot; title=&quot;Google据传将以13亿美元为Waze收购案画上句号&quot;&gt;以 13 亿美元收购众包地图应用 Waze&lt;/a&gt;，今天 &lt;a href=&quot;http://googleblog.blogspot.co.uk/2013/06/google-maps-and-waze-outsmarting.html&quot;&gt;Google 官方&lt;/a&gt;就发布了消息，称已经收购 Waze，但没有披露具体交易价格。&lt;/p&gt;
+
+&lt;p&gt;Google 称：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Waze的产品开发团队仍然会留在以色列，但是运营将独立出去。Google地图将新增一些交通流量方面的功能，由Waze提供。而Google将为Waze提供更强大的搜索能力。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Waze对Google地图的帮助主要体现在实时实时交通方面，当你跟着地图导航去目的地时，如果遇上堵车或交通事故，普通地图是没办法实时知道的，但由于Waze是由它的用户众包实时提供数据，所以司机可以更快的获得信息。Waze的这些用户是很宝贵的资产，并且这些用户产生的数据将对Google地图产生巨大帮助。&lt;/p&gt;
+
+&lt;p&gt;之前&lt;a href=&quot;http://www.36kr.com/p/203664.html&quot; title=&quot;Facebook和Waze谈崩了&quot;&gt;Facebook&lt;/a&gt;和苹果都表示了对Waze的兴趣，但最终还是Google胜出。&lt;/p&gt;
+
+&lt;p&gt;Waze是一家以色列创业公司，我们第一次报道它是在2011年的10月：&lt;a href=&quot;http://www.36kr.com/p/54238.html&quot; title=&quot;实时众包地图绘制应用Waze获得李嘉诚等3000万美元的投资，开始着手打开中国市场&quot;&gt;实时众包地图绘制应用Waze获得李嘉诚等3000万美元的投资，开始着手打开中国市场&lt;/a&gt;，点&lt;a href=&quot;http://www.36kr.com/tag/Waze&quot;&gt;这里&lt;/a&gt;可以查看过去2年我们对Waze的所有报道。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  Google为什么要收购Waze？
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203937.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/01008ab87d4eea36a0fd4da408c5490d.jpg&quot; /&gt;&lt;br /&gt;
+最近一段时间，Google、Facebook以及苹果等巨头均对众包地图应用&lt;a href=&quot;http://www.36kr.com/tag/Waze&quot;&gt;Waze&lt;/a&gt;展开了猛烈的追求攻势。究竟谁赢得了后者的最终青睐？这个问题昨天终于有了答案，Google在自己的官方博客&lt;a href=&quot;http://www.36kr.com/p/203933.html&quot;&gt;正式宣布已收购Waze&lt;/a&gt;。收购的具体金额并未透露，但是坊间的消息说达到了10.3亿美元，如果此消息属实，对于以色列的初创企业来说，这个数字将是一个新的里程碑。&lt;/p&gt;
+
+&lt;p&gt;Waze拥有4500万用户，但是以下四点才是Waze吸引Google的理由：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1、Waze竞争对手寥寥&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lumatic是一家为步行者服务的地图软件初创企业。该公司的CEO Scott Rafer说自己以往从事的领域往往会有上万家的初创企业，但是地图软件却绝非精益就能办到的。在这一点上Waze没有真正的竞争对手。&lt;/p&gt;
+
+&lt;p&gt;Waze目前拥有110名员工，Waze能做的事情不是一家只有15人的公司就能办到的。这个门槛就把众多潜在的竞争对手给排除掉了。此外，除了必要的人力以外，还需要时间才能形成规模足够庞大的社区，这样才能让其中的成员的贡献集腋成裘， 让Waze具备真正的影响力。此外，地图软件领域Google Maps这座大山令很多人高山仰止，进一步吓跑了许多试图进入者。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2、Google不擅发展社交网络&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;尽管Google宣称自己的G+拥有5亿多的用户，但是其影响力无法与Facebook、Twitter同日而语。Waze活跃的社区能够在移动端提供一个社交层，这对于Google来说无疑是具有吸引力的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3、地图实在是太重要了&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Forrester的副总裁Julie Ask说，就功能而言，地图软件可以与电子邮件及浏览器的基础作用比肩。而这一点正是由于Google Maps的出色应用导致人们对地图软件形成了依赖而造成的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4、这是一项防御性举措&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;苹果搞砸了自己的地图应用，但Facebook的地图软件比苹果的还要糟糕。按照Rafer的说法，Facebook基本上跟Foursquare处在一个水平线上，其地图软件可以用于签到，但是无法进行路线规划。让Facebook等得不到好的地图软件就能够保持Google的领先优势，从战略上来看，这对于Google是具有积极意义的。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  #WWDC# 苹果发布新系统OS X Mavericks
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203917.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/3601f1923ad075db475acea699237b9f.png&quot; /&gt;&lt;br /&gt;
+虽然现场的一场玩笑让众媒体认为第十个OS X会叫做OS X Sea Lion（海狮），不过全新的OS X 还是在这次的WWDC上发布了，名为Mavericks。&lt;/p&gt;
+
+&lt;p&gt;现场介绍到，这个新的OS增加了Finder Tabs 、Tags及Multiple display功能。&lt;/p&gt;
+
+&lt;p&gt;FinderTabs文件将有新的形式被查找、呈现，类似用户熟悉的Safari，Finder窗口里多了标签页的设置。同时，Finder的左下方多出了Tags，让用户可以为文件加上标签，并能够被标注多种标签，让用户可以基于功能、自己设置的标签进行文件的搜索和分类。&lt;/p&gt;
+
+&lt;p&gt;而Multiple Displays也有不错的改进，它可以让你跨屏查看主菜单，在各自的屏上做全屏操作，并且能与Apple TV兼容，让Mac用户可以将他们的第二屏通过机顶盒转移到电视上。&lt;/p&gt;
+
+&lt;p&gt;在性能上，Mavericks将让CPU有效减少72%的活动，可迅速压缩让内存可用。就像之前的OS X发布那样，Mavericks同样可以通过Mac App Store进行下载，将于今天开始开放给开发者，今年秋天开放给用户。&lt;/p&gt;
+
+&lt;p&gt;此外，会上还一并介绍了Safari的更新。目前有15亿台设备使用的是Safari的引擎，新版Safari有一个新的侧边书签栏，可以直接在这里看LinkedIn和Twitter的消息。Safari的性能要比Chrome和Firefox强不少，同时能耗还低不少。Safari的滚动体验也有很大提升。Safari还可以智能检测哪些应用正在运行中，系统将会调配资源给这些应用，从而间接提高Safari的运行表现。&lt;/p&gt;
+
+&lt;p&gt;另外一个重要更新是iCloud Keychain，可以在云端保存你在Safari上使用的所有密码，1password一类的应用是不是要哭了？&lt;/p&gt;
+
+&lt;p&gt;更多内容请看&lt;a href=&quot;http://www.36kr.com/p/203916.html&quot;&gt;WWDC大会实录&lt;/a&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  微软敲定Xbox One上市日期：499美元11月开售
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203924.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;http://a.36krcnd.com/photo/97aa63f008a221169af9ff69bb5d77ed.jpg&quot; src=&quot;http://a.36krcnd.com/photo/97aa63f008a221169af9ff69bb5d77ed.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;被满屏的苹果iOS 7消息刷屏了，难得冒出一条微软的新动态：Xbox One终于有了面市日期，将于今年11月份开卖，美国的玩家可以用499美元买到它，而英国和其它欧洲国家的玩家则分别需要支付429英镑或是499欧元。微软称，Xbox One会在21个不同市场上和玩家见面，但尚未公布具体是哪些地区。&lt;/p&gt;
+
+&lt;p&gt;而有些玩家对这个价格不甚满意了，Twitter上已经骂声一片——大家都以为Xbox One会和当时的Xbox 360售价相同，都是399美元，没成想足足多加了100美元。&lt;/p&gt;
+
+&lt;p&gt;不过想想微软在Xbox One上寄予的厚望（成为未来连接智能家具的枢纽），或许你可以理解这个价格多一点，毕竟它已经不单只是一台游戏机了，很有可能成为一个生态系统来控制你家的空调和灯具，以及整个客厅的娱乐系统。（更详细的Xbox One分析，可以参看：《&lt;a href=&quot;http://www.36kr.com/p/203684.html&quot;&gt;“One”平台：Xbox One将会给微软带来怎样的改变？&lt;/a&gt;》）&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  全天恭候的Macbook Air来了，续航时间相较从前提升近1倍，图像处理能力提升近40% #WWDC
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203918.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/da1bc7dafb026af28203b6afaac5735f.jpg&quot; /&gt;&lt;br /&gt;
+全新的Macbook Air来了，带着满腔热血的电池，基于Haswell ULT（一款能极大降低能耗的处理器），同时能提高40的图像处理速度。最大的亮点还是持续时间，新款Air11寸最长可持续9小时，13寸的则为12小时。相比起之前的4小时和7小时，这是一个很大的提升。此外新版Air还配备了802.11ac的Wi-Fi。&lt;/p&gt;
+
+&lt;p&gt;新版Air今天起就可以在官网购买，价格略有下降。11寸Air128GB的售价为999美元，256GB的为1199美元。13寸Air128GB版售价为1099美元，256GB的为1299美元。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  不出所料，苹果发布Pandora杀手——iTunes Radio
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203921.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/627802ec23528dd625a8c1be910e1499.png&quot; /&gt;&lt;br /&gt;
+不出所料，今晚的WWDC可能让不少人高兴，却也注定了一些创业公司的无眠。iTunes Radio就是这么一个制造失眠的产品。在今天的WWDC上，iTunes Radio&lt;a href=&quot;http://www.36kr.com/p/203877.html&quot;&gt;如期发布&lt;/a&gt;，成为苹果新的音乐服务（&lt;a href=&quot;http://www.36kr.com/p/203833.html&quot;&gt;Pandora君你还好吗&lt;/a&gt;？）&lt;/p&gt;
+
+&lt;p&gt;iTunes Radio是一个可以学习你品味的音乐流媒体服务，基于你听过的和正在听的为你推荐音乐。在发布会上可以看到，这个新服务能访问整个iTunes目录，也就是说，会有2600万的曲目被收录。发布会上的iTunes Radio被比作是发现音乐的新地方。用户除了可以在应用内通过推荐电台（Station）听音乐外，用户也可以自己创建Station，并对歌曲进行分享。&lt;/p&gt;
+
+&lt;p&gt;在这件事上，苹果最大的优势就是——能记录追踪你所有苹果设备的收听记录。这项全免费的服务会通过文本和语音广告支持流媒体音乐的消费，而且那些已经在iTunes上订阅购买的用户是不会收到广告的。此外，它会支持用户对音乐的购买，按下“购买”按钮后会自动跳转到应用商店。&lt;/p&gt;
+
+&lt;p&gt;这项服务将首先在美国发布，但苹果决心将这项服务推向更多国家。&lt;/p&gt;
+
+&lt;p&gt;更多内容请看&lt;a href=&quot;http://www.36kr.com/p/203916.html&quot;&gt;WWDC大会实录&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;想看36氪却苦于没有时间而漏掉了精彩新闻？关注我们的微信账号吧，每天早晚8点15分将最精彩的资讯推送给您~微信搜索wow36kr或者扫描下方二维码就可以关注我们哦！&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/1b34252bb1fe35bd15440aab7120822a.jpg&quot; /&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  2013#WWDC全回顾：新的苹果？
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203916.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/a0362ffc359563e539f6fe553a90bf52.jpg&quot; /&gt;&lt;br /&gt;
+光阴流水，苹果已不是07年的苹果，我们也不再是当年的我们。&lt;/p&gt;
+
+&lt;p&gt;苹果曾经代表着新锐、不同和创新，第一代iPhone推出时，大部分智能手机还有实体键盘，人机交互的方式也是以鼠标+键盘为主。是苹果让人们明白了手指+触摸屏的威力，随后大家蜂拥而上，Google，三星，微软，黑莓，智能手机又开始变得一样了。&lt;/p&gt;
+
+&lt;p&gt;John Gruber在谈这次WWDC时说：“2007 年推出第一代 iPhone 时，苹果的挑战是让人们熟悉一种新的人机交互方式。这一问题现在已被很好的解决了。苹果是时候向新的问题进发了。这就是我对明天 WWDC 大会上苹果的期待。”&lt;/p&gt;
+
+&lt;p&gt;我知道你们也一样，希望看到一个全新的苹果，也许是绿色的？也许是圆角矩形的？也许是四维的？&lt;/p&gt;
+
+&lt;p&gt;那么，一起来看看吧。&lt;/p&gt;
+
+&lt;p&gt;精彩的开场视频后，Cook上台了，谈了谈苹果零售店在全世界取得的成功，话锋一转说到了AppStore。下个月，AppStore即将迎来五岁生日，应用总数为90万，其中37.5万款应用专为iPad设计。下载总量超过500亿次，iTunes账号数量为5.75亿个。开发者去年从AppStore获得的收入为100亿，单是去年就有50亿。三倍于其他所有平台给开发者的分成。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/5e3ba78ffc6652bf05e762afa3305ca2.png&quot; /&gt;&lt;br /&gt;
+&lt;strong&gt;全场第一个重头戏属于新版OS X&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;虽然现场的一场玩笑让众媒体认为第十个 OS X 会叫做 OS X Sea Lion（海狮），不过全新的 OSX 还是在这次的 WWDC 上发布了，名为 Mavericks。&lt;/p&gt;
+
+&lt;p&gt;现场介绍到，这个新的 OS 增加了 Finder Tabs 、Tags 及 Multiple display 功能。&lt;/p&gt;
+
+&lt;p&gt;FinderTabs 文件将有新的形式被查找、呈现，类似用户熟悉的 Safari，Finder 窗口里多了标签页的设置。同时，Finder 的左下方多出了 Tags，让用户可以为文件加上标签，并能够被标注多种标签，让用户可以基于功能、自己设置的标签进行文件的搜索和分类。&lt;/p&gt;
+
+&lt;p&gt;而 Multiple Displays 也有不错的改进，它可以让你跨屏查看主菜单，在各自的屏上做全屏操作，并且能与 Apple TV 兼容，让 Mac 用户可以将他们的第二屏通过机顶盒转移到电视上。&lt;/p&gt;
+
+&lt;p&gt;在性能上，Mavericks 将让 CPU 有效减少 72% 的活动，可迅速压缩让内存可用。就像之前的 OS X 发布那样，Mavericks 同样可以通过 Mac App Store 进行下载，将于今年秋天发布。&lt;/p&gt;
+
+&lt;p&gt;此外，会上还一并介绍了 Safari 的更新。目前有 15 亿台设备使用的是 Safari 的引擎，新版 Safari 有一个新的侧边书签栏，可以直接在这里看 LinkedIn 和 Twitter 的消息。Safari 的性能要比 Chrome 和 Firefox 强不少，同时能耗还低不少。Safari 的滚动体验也有很大提升。Safari 还可以智能检测哪些应用正在运行中，系统将会调配资源给这些应用，从而间接提高 Safari 的运行表现。&lt;/p&gt;
+
+&lt;p&gt;另外一个重要更新是 iCloud Keychain，可以在云端保存你在 Safari 上使用的所有密码，1password 一类的应用是不是要哭了？&lt;/p&gt;
+
+&lt;p&gt;新版地图明显跟以往不同，皮毛等拟物化设计没有了，风格更清新明快，支持直接从Mac将地图信息推送到iPhone，同时开放SDK，开发者可以将地图功能添加到自己的应用中。iBooks也回到了Mac上，那些存在iOS设备上的书籍杂志，现在可以在Mac上看了。&lt;/p&gt;
+
+&lt;p&gt;一直都说苹果没有获得企业用户的优势，但今天的WWDC上，它也要和Google、微软竞争了，对iWork套件做了大升级，支持Pages文档、Numbers表格以及Keynote演示应用在原生以外的地方生长。通过整合接入了大部分平台和所有浏览器的iCloud，iWork将可以在iCloud上做文档、表格和演示文件的操作，以beta版本开放给开发者并在今年晚些时候向所有的iCloud用户开放。&lt;/p&gt;
+
+&lt;p&gt;整合了iCloud的iWork意味着可以让用户跨平台、基于云地工作。现场iWork可以在IE和Chrome上同时工作，而且体验看起来和原生应用没有大多不同。这对于企业级用户来说多了不少好处。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;新版Macbook Air和Mac Pro&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;软件有更新，硬件当然也不能落下。全新的Macbook Air来了，带着满腔热血的电池，基于Haswell ULT（一款能极大降低能耗的处理器），同时能提高40%的图像处理速度。最大的亮点还是持续时间，新款Air11寸最长可持续9小时，13寸的则为12小时。相比起之前的4小时和7小时，这是一个很大的提升。此外新版Air还配备了802.11ac的Wi-Fi。&lt;/p&gt;
+
+&lt;p&gt;新版Air今天起就可以在官网购买，价格略有下降。11寸Air128GB的售价为999美元，256GB的为1199美元。13寸Air128GB版售价为1099美元，256GB的为1299美元。&lt;/p&gt;
+
+&lt;p&gt;因为 iPad、iPhone 而被抢尽风头的 Mac Pro 终于又有新料了。Mac Pro 进行了完全的重设计，对此，Phil Schiller 的形容是“你妹的再也没法继续创新了（can’t innovate any more my ass）”。&lt;/p&gt;
+
+&lt;p&gt;新的 Mac Pro 采用了英特尔新的 12 核处理器，而 DDR RAM 也升至 1866MHz，闪存存储的读取速率是 1.25 GPBs。对此，苹果声称，会比旧的 Mac Pro 驱动器快上 10 倍。此外，新的 Mac Pro 还可一次支持 4个4K 显示屏，所有的外接设备支持 20 GBps 的 Thenderbolt 2 连接器。而且它的体积更小，只是老 Mac Pro 的八分之一。&lt;/p&gt;
+
+&lt;p&gt;不过这个在美国组装的产品还没开卖，可能会在今年晚些时候问世。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/b45b093f690720444e14c8d2aded0250.jpg&quot; /&gt;&lt;br /&gt;
+&lt;strong&gt;iOS 7终于出现：自iPhone发布以来最大的一次变化&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在发布会上，Cook称此次iOS 7的更新是iOS系统自07年iPhone发布以来最大的一次变化。iOS 7比以前更扁平，全新的图标界面设计，全新的滑动解锁功能，官方的股票和天气应用也完全重做了，后者跟Yahoo最近更新的天气应用有异曲同工之妙。&lt;/p&gt;
+
+&lt;p&gt;Ive称新系统采用了一套全新的配色方案，整个界面有很明显的半透明果冻色，曾经的拟物化设计不见了，日历、图片、信息和游戏中心全都不一样了。&lt;/p&gt;
+
+&lt;p&gt;iOS 7中的文件夹可以装上几百个应用，曾经的12-16的数量限制没有了。新版通知中心可以从任何地方（甚至锁屏界面）进入，很方便的查看所有信息。&lt;/p&gt;
+
+&lt;p&gt;新增一个点对点分享工具Airdrop，可以自动显示身边的联系人，选定联系人和内容就可以发送给对方，无需设置网络，而且有完整加密。&lt;/p&gt;
+
+&lt;p&gt;iOS在图片领域也有很多改变。新版相机应用自带各种滤镜，可以实时添加查看各种滤镜效果。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/e002116442c0dc1b368b970a135b74db.jpg&quot; /&gt;&lt;br /&gt;
+iOS 7新增了一个很棒的功能，叫做控制中心（Control Center），一挥手即可进入，这里有诸多经常使用的配置功能，比如开关飞行模式，Wi-Fi设置，蓝牙，亮度等等。这个功能终于来了，许多iOS用户都曾请求苹果加上它。&lt;/p&gt;
+
+&lt;p&gt;多任务运行也有更新，现在可以支持所有应用，而不像以前只支持特定应用。新的多任务运行可以让应用在后台更新，而且不影响电池寿命，此外还能智能更选择恰当的时间，比如有更好的网络环境时更新应用。&lt;/p&gt;
+
+&lt;p&gt;新增一个点对点分享工具Airdrop，可以自动显示身边的联系人，选定联系人和内容就可以发送给对方，无需设置网络，而且有完整加密。&lt;/p&gt;
+
+&lt;p&gt;iOS在图片领域也有很多改变。新版相机应用自带各种滤镜，可以实时添加查看各种滤镜效果。新增了一个广角相机（Square Camera）的功能。图片应用重做，新增&lt;br /&gt;
+一个叫Moments的功能，可以根据时间和地点来自动阻止你的图片和视频，可以缩放查看。支持iCloud分享，家人朋友可以一起创建某个图片频道，组成你的图片流。有些图片组织分享应用要小心了。&lt;/p&gt;
+
+&lt;p&gt;iOS 7中的Safari也有很多更新，比如支持全屏浏览，全新的智能搜索域，书签和标签栏也有了不同的展现方式。之前介绍的iCloud Keychain在iOS 7中也可以用，以后在手机端输密码就简单多了。&lt;/p&gt;
+
+&lt;p&gt;Siri的嗓音变了，更柔和自然，还加入了一个男性声音。整合了Twitter语音搜索，你可以直接问Siri人们在Twitter上说了些啥。&lt;/p&gt;
+
+&lt;p&gt;AppStore方面，iOS 7新增了一个“附近的流行应用”功能，可以帮你发现身边都有哪些热门应用。iOS 7可以自动更新你的应用，在AppStore中新增了一个儿童分类，方便老师和父母为学生孩子找应用。&lt;/p&gt;
+
+&lt;p&gt;苹果还将iOS 7同汽车进一步联系起来，让你在车里更好的使用iPhone和iPad，新系统名为iOS in the Car，支持Siri、地图和语音导航等功能。&lt;/p&gt;
+
+&lt;p&gt;iOS 7 Beta 版现在就可以给开发者使用了，正式发布需要等到今年秋季。支持 iPhone 4、iPad 2 及以上机型，iPad mini 及 iPod touch 5。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;磨磨蹭蹭大致写完了，本次WWDC发布了两款新系统，分别是OS X Mavericks和iOS 7，还有两款硬件Macbook Air和Mac Pro，其中iOS 7可能是争议的焦点。我的观点是，苹果真的开始变了，从一个领头者变成了一个求变者，很高兴看到这种变化。&lt;/p&gt;
+
+&lt;p&gt;想看36氪却苦于没有时间而漏掉了精彩新闻？关注我们的微信账号吧，每天早晚8点15分将最精彩的资讯推送给您~微信搜索wow36kr或者扫描下方二维码就可以关注我们哦！&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/1b34252bb1fe35bd15440aab7120822a.jpg&quot; /&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  以人工智能驱动的赛车游戏亮相苹果WWDC大会，创业公司Anki获A16Z等5000万美元投资
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203922.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/50fa50dd6cb358478e44530e5e53757e.jpg&quot; /&gt;&lt;br /&gt;
+能在苹果的&lt;a href=&quot;http://www.36kr.com/p/203916.html&quot;&gt;WWDC&lt;/a&gt;大会现场演示自己的产品，显然不是一件非常容易的事情，而&lt;a href=&quot;http://anki.com/&quot;&gt;Anki&lt;/a&gt;这家之前没怎么听过创业公司就在今天做到了，而且整个演示过程也不负众望。与此同时，Anki在今天宣布获得了来自A16Z等投资机构&lt;a href=&quot;http://blog.pmarca.com/2013/06/10/announcing-anki/&quot;&gt;5000万美元&lt;/a&gt;的投资。 &lt;/p&gt;
+
+&lt;p&gt;简单的说，Anki可以看成是一家人工智能创业公司，其推出的产品将人工智能和机器人进行了整合，可以说是真实版的玩具汽车游戏。Anki的联合创始人兼CEO Boris Sofman在&lt;a href=&quot;http://anki.com/blog&quot;&gt;官方博客&lt;/a&gt;简单介绍了一下他们所做的事情，他表示，Anki的目标是将人工智能AI和机器人带入人们的真实生活。而今天在WWDC大会上展示的Anki Drive，已经让玩具汽车可以在固定的跑道上竞赛，它们知道自己处于什么位置，也知道要怎么样做才能获得更有利于自己的优势，就和现实中的人差不多。Boris说他与团队伙伴于5年前就梦想着打造这样一个平台。&lt;/p&gt;
+
+&lt;p&gt;竞赛期间，这些玩具汽车可自己控制车速、自主转弯、超车并实施挡住后方车辆等操作，非常类似真实世界的赛车游戏，而这一切都是通过iPad或者iPhone来控制完成。&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/bccb15fcea5d3a8940f991881761edc3.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A16Z的Marc Andreessen在其&lt;a href=&quot;http://blog.pmarca.com/2013/06/10/announcing-anki/&quot;&gt;个人博客&lt;/a&gt;上表示，他们是Anki主要的投资者。他说从2012年2月份开始，Anki的运营就处于隐身模式，而让他在这16个月避而不谈这家公司，是他创立A16Z以来最艰难的一件事情。从中我们可以看出，Marc Andreessen是非常的看好这家公司。&lt;/p&gt;
+
+&lt;p&gt;而Boris在博文中指出，每一辆玩具车都配备有大量的传感器和智能软件，通过它们的协作在每秒都会做出成百上千个决定。其中移动设备在这个过程中并不是一个远程遥控器的角色，它更多的起着现实世界中驱动者的作用。&lt;/p&gt;
+
+&lt;p&gt;苹果CEO Tim Cook在现场表示：“当我们看到Anki Drive时，我们看到了机器人技术和人工智能的未来正逐渐变得清晰。今天，我们见证了人工智能AI和机器人技术带来的娱乐体验，也看到了这一领域的无限可能。”&lt;/p&gt;
+
+&lt;p&gt;Andreessen指出，Anki令人激动之处在于它融合了机器人、人工智能AI、硬件以及软件，最终带来一种全新的娱乐体验，Anki Drive对任何年龄段的人都适合。因此他希望能帮助Anki的团队实现他们的愿景，而同时这也是一个非常大的投资市场。&lt;/p&gt;
+
+&lt;p&gt;Anki Drive的App将在今年秋季登陆苹果的iOS，目前还没有登陆其它平台的计划。你可以在WWDC的Keynote视频里看到现场演示，目前这个视频已经放到了苹果&lt;a href=&quot;http://www.apple.com/apple-events/june-2013/&quot;&gt;官方网站&lt;/a&gt;。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  看看支持OS X 10.9 Mavericks的机型都有哪些
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203929.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/f815752448a34dcf2e6cfd19267232f1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在今天凌晨举行的WWDC上，苹果并没有说明哪些Mac将可以运行下一代OS X系统。据OS X 10.9 Mavericks开发者预览版的发行说明:&lt;strong&gt;所有支持目前OS X 10.8 Mountain Lion的Mac电脑都可以运行OS X Mavericks。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;具体机型列表如下：&lt;/p&gt;
+
+&lt;p&gt;iMac (2007 年中期或之后的机型)&lt;br /&gt;
+MacBook (2008 年后期的铝制机型、2009 年前期或之后的机型)&lt;br /&gt;
+MacBook Pro（2007 年中期/后期或之后的机型）&lt;br /&gt;
+MacBook Air (2008 年后期或之后的机型)&lt;br /&gt;
+Mac mini (2009 年前期或之后的机型)&lt;br /&gt;
+Mac Pro (2008 年前期或之后的机型)&lt;br /&gt;
+Xserve (2009 年前期)&lt;/p&gt;
+
+&lt;p&gt;Mac用户可点击屏幕左上角的 Apple 图标，选择“关于本机”，然后点击 &#39;&#39;更多信息&#39;&#39;，即可查看你目前使用的 Mac 是否符合条件。&lt;/p&gt;
+
+&lt;p&gt;此外，Mac需要运行Mac OS X 10.6.7雪豹（Snow Leopard )或更新的系统才能升级，安装需要8GB空闲硬盘空间。目前，OS X Mavericks测试版已经对开发者开放下载，正式版将在今年秋季发布。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  嘿，快来瞧一下Google的平面设计指南
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203923.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/38a888688209b6d45de165e30de52477.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今天的WWDC上，苹果发布了万众瞩目的&lt;a href=&quot;http://www.36kr.com/p/203920.html&quot;&gt;iOS 7&lt;/a&gt;。Ive带来了全新的UI设计，顿时拍砖四起。好，咱先不提“安X化”、“扁X化”，让我们来看看近期Google的一位高级平面设计师在&lt;a href=&quot;http://www.behance.net/rogeroddone&quot;&gt;Behance&lt;/a&gt;上发布的两份不多见的设计指南，清晰地展示了Google产品图标的设计细节。&lt;/p&gt;
+
+&lt;p&gt;时间回到2011年4月，Google联合创始人Larry Page接过Eric Schmidt的枪，走马上任Google CEO。他马不停蹄，在上任第一天就宣布将对公司的主要产品重新进行视觉设计——其中包括公司代表性的搜索、地图和邮件。他想让它们改头换面（要知道Google从来不以设计优雅著称），但同时他要求产品之间要密切关联，而不是一群风马牛不相及的数字工具扎堆在一起。在此之后我们就注意到Google的产品在视觉美感上出现了大幅提升，这还是在基本设计语言不变的前提下实现的。接下来我们就来看看Google的平面设计师们是如何做的。&lt;/p&gt;
+
+&lt;p&gt;这篇Guideline由两份文件组成，主要聚焦于图标设计学。由Google高级平面设计师Roger Oddone和艺术主管Christopher Bettig带领Alex Griendling、Jefferson Cheng、Yan Yan以及Zachary Gibson等设计师在18个月内完成，同时覆盖了与应用图标和UI元素相关的宽泛原则以及像素层面的细节。推出这份指南的目的是为了确立一系列即固定又灵活的指导方针——引领Google的设计师们为壮大Google的身份而奋斗。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/d8ed8e27aef12988e52654f199192afe.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;其中的第一份文件更让人兴奋，其中详细地阐述了Google的产品图标设计。Google的产品图标设计“简约、现代、易懂，有时略显古怪......极度精简、夸张、漫画化”。Google鼓励设计师们在产品图标设计方面采取“最简化手法”。比方说，在地图图标的设计上，他们会放弃“在地图上方插一根钉”的图标设计，而会鼓励采用“一根钉”这种更简约的方式。接下来的一章阐述了依照简单几何图形来绘制图标的重要性。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/9da6e5a2df36743fa8513b935eb482f0.jpg&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/48c972a90001beaca0c6e7510c178d7a.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;接下来的部分与透视法相关。图标需要面向前方，不以立体呈现（仅横竖两根坐标轴），鼓励使用直线硬阴影，而非投影、渐变或是明暗效果。文件展示了所有图标设计中需要采用的颜色的细节——比如Google代表色：蓝、红、黄、绿的精确数值。文件中还讲述了Google采用的字体，从为小码文本设计的像素完美字体到公司产品名称所采用的默认字体：Open Sans Semi Bold。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/2b1b8ee4297949b029569a7ab1ff4172.jpg&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/533b7cd646a99c6af77c49b34f6603e6.jpg&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/6823f49216272981fa4466f4788ebddb.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;介绍完了产品图标设计，接下来我们来看看Logo lockups（图标和产品名称的组合）——公司把它称作产品的品牌大使。在这一部分明确描述了Logo lockup的三个组成部分：产品图标、Google标识以及产品名称所需要采用的间距、大小和排版规格。比方说，产品名称的字体选择并不是固定的，而是会根据Google标识的像素大小产生变化。如果Google标识是60像素以上（包括），产品名称采用Open Sans Light字体，如果是60像素以下，产品名称则采用Open Sans Regular字体。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/13b2ecab8e4976214e62bb4f232c49ee.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在Guideline的第二份文件中，除了展示了Google在产品视频中常采用的扁平化的Charley Harper式插图之外，还详细介绍了UI设计中图标的比例、大小和填充细节。&lt;/p&gt;
+
+&lt;p&gt;两份文件中展示的都是些枯燥乏味的设计细节，但这些看似微不足道的细节正是Google之前所忽视的。Google推出这样的设计指南并不特别让人感到意外，这些大到公司Logo小到应用图标的设计标准正是Google那些驰骋各大平台的平面设计师们所需要的。但真的很高兴能看到Google这样做，这证明了公司正在细微处下功夫。&lt;/p&gt;
+
+&lt;p&gt;详细文件在此：&lt;a href=&quot;http://www.behance.net/gallery/Google-Visual-Assets-Guidelines-Part-1/9028077&quot;&gt;一&lt;/a&gt; &lt;a href=&quot;http://www.behance.net/gallery/Google-Visual-Assets-Guidelines-Part-2/9084309&quot;&gt;二&lt;/a&gt;&lt;br /&gt;
+题图：&lt;a href=&quot;http://www.jeffersoncheng.com/Google&quot;&gt;Jefferson Cheng&lt;/a&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  让你的网站懂得如何交流：数据分析工具Spinnakr追踪流量的同时，帮你适时调整内容以吸引最大的受众群体
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203927.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/77308bb30b08bf7f59f0b35792597116.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;虽然市面上你熟知的分析工具已有不少，但当你真正去用它们的时候会发现，这些工具设计得只有数据分析师才能看得懂。这一点搭建了Spinnakr进入数据分析工具红海的自信。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://spinnakr.com/&quot;&gt;Spinnakr&lt;/a&gt;是一个实时的web数据分析平台，它和同类工具相同之处在于，它也可以观测到访问量的走势、增长高峰、为网站引入流量的搜索关键词或相关热门事件，而除此之外，它的差异化体现在分析之后，Spinnakr会向网站的运营者推荐他下一步应该根据数据分析的结果采取什么行动，比如当你发现Facebook上导入的访问流量很多时，你就需要在Facebook上多下点功夫。&lt;/p&gt;
+
+&lt;p&gt;Spinnakr相信很多人都会想知道自己网站上的访问量跟最近什么热门事件有关，因此它会追踪这些热点，并且把它们按重要性顺序排序，把结果像news feed一样反馈给用户。如果有什么事件特别紧急，Spinnakr会通过邮件或浏览器插件告知用户。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/d8deceaa1148dd34e2d8a93faf4eb984.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;值得一提的是，Spinnakr并非是一个古板的分析工具，它还可以帮助用户来和自己网站上内容的最大消费群体互动。举个例子，如果根据分析你的网站上是微博点击带来的访问量最大，那你可以利用Spinnakr向这些用户发送定制内容，比如在他们点击进入你的网站时显示“hello，微博上的朋友，欢迎你！”。或者你通过Spinnakr的可视化编辑工具，可以为这些用户修改你网站上的相应内容，比如调整大标题或是内容位置让这部分读者更加满意。&lt;/p&gt;
+
+&lt;p&gt;过去六个月中，Spinnakr和200多家企业一起进行了测试，今天发布的是正式开放版本。他们拿到了Andreessen Horowitz、500 Startups、Point Nine Capital、Sand Hill Angels的百万美元种子投资，目前是由六个人在运作这个产品。&lt;/p&gt;
+
+&lt;p&gt;创始人Bonnifield觉得，过去的网站是单向的、静态的，它无法发声，所以很多人选择在Facebook、Twitter上开设账号，来和自己的受众进行交流，但现在这种情况要改变了。“Web正在变得更具语境、更有弹性、更方便和受众互动，所以我们做的事，就是让Web能更像一个社区，而不是一个沉默的静态文件。”Bonnifield说。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  索尼PlayStation 4价格公布，支持二手游戏，无需实时在线
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203925.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/a2c403146e3195017edbc0584102d566.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;索尼PlayStation 4游戏主机早已于今年 2 月份发布，但外观一直保密，直到今天的E3索尼发布会，才正式向世界公开。新的PS4与 Xbox One 设计灵感相似，但显得更具设计感。而 PlayStation 4和 Xbox One最大的区别就是价格，它比后者整整便宜了100美元。而且PS4还向下兼容PS3游戏，也不需要玩家实时在线，更重要的是索尼还允许二手游戏，即玩家可以将自己玩过的游戏进行交易，无需在线认证。&lt;/p&gt;
+
+&lt;p&gt;在E3发布会中，索尼宣布PS4售价为399美元（约合2450元人民币），并于圣诞节上市，同时欧洲售价为399欧元，英国地区售价为349英镑。而&lt;a href=&quot;http://www.36kr.com/p/203924.html&quot;&gt;Xbox One将于今年 11 月份开卖&lt;/a&gt;，美国的玩家可以用 499 美元买到它，而英国和其它欧洲国家的玩家则分别需要支付 429 英镑或是 499 欧元。同时Xbox One 会在 21 个不同地区发售。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/4083ca5129e748b47660bda30afbcda8.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PS4 采用 x86-64 AMD Jaguar 8 核 CPU，搭配 Radeon 显卡，拥有 8GB GDDR5 RAM，6 倍蓝牙光驱以及一个内置硬盘。PS4 主机配备专为其打造的 DualShock 4 手柄，拥有触摸表面以及分享按钮，允许玩家上传游戏分享游戏画面。另外，PS4 还配有摄像头体感配件——PlayStation 4 Eye，该体感外设拥有两个摄像头和和四个高灵敏麦克风，两个摄像头分辨率达到 1280*800，支持 1280*800（60fps）、640*400（120fps）和 320*192（240fps）三种规格视频拍摄。&lt;/p&gt;
+
+&lt;p&gt;索尼同时还确认了两个重要的消息。首先，玩家在PS4上玩游戏时并不需要联网。先前微软发布的Xbox One需要玩家实时在线，才能正常进入游戏，这一点着实让玩家很头疼，也变成了限制玩家自由游戏的枷锁。而PS4 完全不必为玩游戏而联网。同时，索尼还宣布PlayStation 4还向下兼容PS3 游戏。这样一来，喜欢新游戏的玩家和老游戏玩家都能各取所需，这无疑也会为PS4留住一大批老玩家。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/8f4d2f9ef3b0b84fe041a843d818209e.jpg&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/8c508662cc04de0cffb396c09b5e9337.jpg&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/bb0cb4f71c5fcdd522fcea03275356b7.jpg&quot; /&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  企业级应用经济学
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203901.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;em&gt;本文作者Aaron Levie是Box的联合创始人和CEO。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/aac332a8c7b43dd5b9feabef401401eb.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;移动应用应该是苹果应用商店给这个世界创造的最大财富，在那之前，大概没人知道app是个什么东西。北京时间6月11日将召开的&lt;a href=&quot;https://developer.apple.com/wwdc/&quot;&gt;WWDC&lt;/a&gt;苹果世界开发者大会上，来自全球的应用开发者将会齐聚一堂，共谋未来移动应用市场的大计。他们肯定会在移动游戏和照片分享领域进行深入探讨，当然也别忘了近来刚完成新一轮&lt;a href=&quot;http://www.36kr.com/p/203884.html&quot;&gt;1亿美元融资的Snapcahat&lt;/a&gt;。不过这些都不是本文的重点，我更关心一个聚光灯之外的话题，那就是应用市场上企业级应用的前世今生来世。&lt;/p&gt;
+
+&lt;p&gt;曾经企业级市场一度被PC所统治，而今大多数的世界500强企业都在工作中或多或少地用到苹果的设备。苹果的iOS系统和Google的Android系统合计占据了移动设备市场91%的江山，而且人们在不断尝试新出现的设备（如平板），同时越来越多的人开始抛弃PC。在上一年的圣诞节，PC设备的出货量下降了6%，这是近十年该数据首次出现下跌。&lt;/p&gt;
+
+&lt;p&gt;随着设备越来越快的更新频率和越来越多的产品种类，很多企业现在更支持员工带自己的设备到办公室工作。虽然新设备的推出如今已很普遍，但企业级应用的市场却还停留在初级阶段：市场上是有不少重量级的企业应用，但他们只是冰山一角，毫无疑问这个市场所具备的潜力是巨大的。试问，为什么没有一个类似“愤怒的小鸟”这样级别的应用出现在企业级应用市场？&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/c15e0a4de44ec6c0f4b9b99f5f73a593.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PC时代及后PC时代&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;上世纪70年代末，个人电脑业务开始经历巨大变革，而一直到2007年进入后PC时代为止，企业用户们在购买和使用软件上的行为却几乎没有变化。市场长期被微软占据着，除了甲骨文, Siebel, PeopleSoft 和 Lotus等少数软件公司能够突破微软的垄断封锁，小的软件公司们被大环境所打压甚至抛弃，少数的巨头们则坐享大企业客户带来的长期利润，企业客户们也从中获益而不需面对众多小公司的产品却无从选择。&lt;/p&gt;
+
+&lt;p&gt;人类社会历史上的所有变革都不是线性变化的，而从PC时代进化到后PC时代也一样——这是一个成几何级数的增长。进入后PC时代一切都不一样了，企业员工不再只在办公室使用软件，在路上、机场、地铁，到处都是他们的办公室。而众多小的软件服务提供商的出现更是激发了整个企业软件市场的活力。&lt;/p&gt;
+
+&lt;p&gt;医生们可以用&lt;a href=&quot;http://www.mimsoftware.com/products/vueme/&quot;&gt;VueMe&lt;/a&gt;在iPad上调取患者的医疗图片；外勤人员通过移动设备提交表单；飞行员们不再使用纸质的航空记录；美国的联邦法官们用iPad调用法律文件；快递员们在&lt;a href=&quot;http://techcrunch.com/2012/06/14/lua-organizes-any-mobile-workforce-with-duh-a-mobile-app/&quot;&gt;Lua&lt;/a&gt;上相互交换信息。如果历史重演的话，移动端上针对企业级客户的应用将会诞生许多新的想法和产品，而不是仅把应用程序从PC端照搬到移动端。&lt;/p&gt;
+
+&lt;p&gt;传统的科技巨头们，包括微软、甲骨文、SAP、IBM，在新的时代中可能将逐渐消失在大众的视野中。终端用户们可以在移动端上通过应用进行网络会议、绘制CAD工程图、进行用户管理，而这一切只需要花几分钟下载应用。优秀的应用应该在设计、操作、简明、实用等每个细节上都不断尽力做到最好，而不仅靠眼下的某个大客户吃饭而止步不前。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;企业级应用的经济学&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在后PC时代出现前，企业用户们如果要引入一个新的软件系统要花很长一段时间，这主要是因为企业要适当调整当前设备设施等以适用于新的系统。而今，一个好的企业级应用甚至能够做到无缝对接。&lt;/p&gt;
+
+&lt;p&gt;企业们在采购软件上的投入历年来不断增加：去年美国市场的数据是2979亿美元。而企业级移动应用的收入却连这的零头都不到。尽管让员工们带自己的设备去上班或多或少重塑了市场环境，但是消费者的购买行为却没有很大的改变：移动设备每年能够产生近百亿的营收，但是大部分都产生于消费市场，而不是企业用户。&lt;/p&gt;
+
+&lt;p&gt;像愤怒的小鸟这样的消费级应用一年能产生上亿的收入，他们有能力在一夜之间颠覆移动领域原有的生态环境；在通讯媒体领域，Whatsapp和Line这样的高级玩家也使得传统移动通讯市场的格局大为改变，同时让传统移动服务商每年损失数十亿收入。这些都发生在消费市场上。尽管一些企业级应用颇具潜力，但他们好像还未到火候，无法与微软等传统巨头们分庭抗礼。&lt;/p&gt;
+
+&lt;p&gt;究其原因，在消费市场上，消费者能从诸如Whatapp这样具有全新商业模式的应用中获益而不用再向移动服务商支付大量通讯费，但在企业应用领域，采购和支付的方法途径基本未随时代改变。在美国市场上，消费者可只花9.99美刀（甚至99美分）就可以终身使用一个消费级应用，而企业级应用是不可能沿用这种商业模式的。&lt;/p&gt;
+
+&lt;p&gt;企业级应用的市场环境是大相径庭的。尽管一个移动应用的终极目标是被一个终端用户使用，但是除了IT部门，其他员工没能力也没义务在应用程序上发表意见。可以说，后PC时代的移动应用市场是瞬息万变的，幸存下来的应用开发公司一般都反应迅速、高效且单纯，而这些是开发企业级应用的公司难以做到的。&lt;/p&gt;
+
+&lt;p&gt;在消费应用领域，消费者们相互间会攀比推荐新应用，而企业级应用则没有这样的推广渠道。对于企业应用开发公司而言，最重要的是开拓一条新的途径以使其产品更容易被企业级用户们发现和分享，同时，企业级用户也需要支持优秀应用。当一个新的积极的推广方式或者商业模式出现时，一般市场上会伴随出现更多的创新。&lt;/p&gt;
+
+&lt;p&gt;科技时代的指数级发展速度已经被多次验证：在平板被发明出的这三年中，已经达到了每年2亿台的出货量，而这个数字花了PC 27年才达到。所以我们有足够的理由相信，企业级应用市场在未来将会快速成长。对于应用开发者而言，企业级应用的市场前景虽然夹杂着不确定性，但却是前所未有的广阔。面对未来将要繁荣的应用市场，我们才刚上路呢。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  用大数据帮助学生找工作：Internmatch获400万美元融资
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203931.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/46f863d14bb84ea042a85be55e2b182e.jpg&quot; /&gt;&lt;br /&gt;
+利用大数据帮助大学生寻找工作的初创企业&lt;a href=&quot;http://www.internmatch.com/&quot;&gt;InternMatch&lt;/a&gt;刚刚获得了400万美元的A轮融资。&lt;/p&gt;
+
+&lt;p&gt;InternMatch创办于2009年，其目标是帮助即将就业的学生寻找实习机会及初级职位，同时让雇主可以展示自己公司的文化并招揽候选人。学生可以在他们的网站上观看公司视频，寻找机会，学习面试礼仪等各种相关的专题。InternMatch称自己的网站每月的独立学生访客超过65万。学生可以免费访问网站，但是企业必须付费才能发布就业机会和展示自己。&lt;/p&gt;
+
+&lt;p&gt;网站目前已经收集了许多数据，包括学生兴趣、成绩、技能，以及与其简历匹配的职位等。公司计划利用数据驱动算法来向学生推荐就业机会，并帮助公司找到与其需求匹配或与上一次招聘类似的候选人。&lt;/p&gt;
+
+&lt;p&gt;此轮融资由Artis Ventures及Subtraction Capital领投，此前的投资者500 Startups等亦参与了此轮融资。此轮所获资金将用于扩展工程团队。&lt;/p&gt;
+
+&lt;p&gt;近年来帮助企业和应届毕业生建立联系的初创企业不断涌现。上个月，相当于初设职场者的LinkedIn的&lt;a href=&quot;http://www.collegefeed.com/&quot;&gt;CollegeFeed&lt;/a&gt;刚刚发布，其社交网络可以帮助学生了解潜在雇主并向其展示自己。今年早些时候亮相的&lt;a href=&quot;http://www.mindsumo.com/&quot;&gt;MindSumo&lt;/a&gt;获得了Google Ventures的融资，它是一个由企业赞助的微型竞赛网上市场，大学生可以通过这些竞赛来展示自己的技能，同时让公司接触到新的创意和人才。而去年成立的&lt;a href=&quot;http://www.aftercollege.com/&quot;&gt;AfterCollege&lt;/a&gt;为了吸引大学生，最近也更新了自己的就业网站，添加了一个新的社交层。&lt;/p&gt;
+
+&lt;p&gt;由此可见，就业网站的竞争日趋激烈，该领域的发展趋势将会是利用社会化、大数据来加强求职者与雇主的沟通和匹配，提供丰富完善的手段让求职者与雇主展现自己。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  Opera 推出独立邮件客户端，支持多标签查看邮件
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203934.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;Opera Mail 是 Opera 新推出的 Mac 版独立邮件客户，与 Opera 浏览器自带邮件功能模块相比，Opera Mail 有更完善的邮件界面，功能差别不大。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/d4cbd2f9366284f6855ae89c63f85b36.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;主要的功能特性有：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;支持标签浏览&lt;/strong&gt; 同时查看多封邮件在标签栏内切换很方便；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持邮件会话&lt;/strong&gt; 相同主题邮件以会话形式展现；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支持过滤器和标签&lt;/strong&gt; 可添加自定义过滤器自动整理邮件分类和给邮件打标签。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Opera Mail 主要为邮件和联系人两大功能，还自带一个 RSS 阅读器，收件箱默认使用日期归档，支持几种界面布局，快捷键和浏览器基本一致。&lt;/p&gt;
+
+&lt;p&gt;主界面：&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/9afbc0adff07e2aa3421fecf7a54f799.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Opera浏览器内建邮件模块：&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/96d84a6f5be2cabbb6c00d2564495d90.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;RSS阅读器：&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/921261901017bb550d874d2e8a42f49e.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;下载地址： &lt;a href=&quot;http://www.opera.com/computer/mail&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;http://www.opera.com/computer/mail&lt;/a&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  那些得了苹果设计奖的应用：Evernote、Yahoo Weather、Letterpress
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203926.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;WWDC大会，苹果给那些设计上卓有成就的app们颁发了设计奖，猜猜都有哪些应用足够资格了呢？&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/finish./id558559470?mt=8&quot;&gt;Finish&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Finish以一款&lt;a href=&quot;http://www.36kr.com/p/200848.html&quot;&gt;依靠deadline来解决拖延症问题&lt;/a&gt;的任务管理app，它用起来十分简单——把任务划分为三类，短期、中期和长期。具体的时限可以自设，比如 2 天内要完成的是短期，7 天内是中期等等。当你记录一个任务时，需填上 due date，说明这个任务要在哪天之前完成。Finish 会按 deadline 顺序把任务陈列出来，你完成一个任务就把它勾掉。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/49bf42f0b9d6ef7e266f087fbd99acc1.png&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/mosaic.io/id620300332?mt=8&quot;&gt;Mosaic.io&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&quot;http://a.36krcnd.com/photo/9f27e879aa08fdbcdb07bc5c37a998c3.png&quot; src=&quot;http://a.36krcnd.com/photo/9f27e879aa08fdbcdb07bc5c37a998c3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mosaic.io这个应用可以&lt;a href=&quot;http://www.36kr.com/p/202342.html&quot;&gt;帮你把多台 iOS 设备拼成一张大屏&lt;/a&gt;。它的交互也很有意思——在要参与拼接的设备中都打开 Mosaic 应用，选定照片，把手指从一台设备的屏幕边缘连续滑向另一台设备的屏幕，照片就可以在这拼接起来的屏幕中显示了。还想再加一块屏幕也就按相同方式操作，iPhone 或是 iPad 都可以。除此以外，它还支持 Dropbox 文件互传，也是手指一滑就可以在两台设备上分享文件了。&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/coda-2/id499340368&quot;&gt;Coda 2&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img alt=&quot;http://static.36kr.com/wp-content/uploads/2012/05/mza_9173268445588190590.800x500-75-1.jpg&quot; src=&quot;http://static.36kr.com/wp-content/uploads/2012/05/mza_9173268445588190590.800x500-75-1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Coda 2是&lt;a href=&quot;http://www.36kr.com/p/111709.html&quot;&gt;网页开发应用&lt;/a&gt;，它可以在Mac和所有iOS设备上运行，提供编辑 HTML 等代码、创建 CSS、输入命令行、生成即时预览、整合 CSS 编辑器以及一个 MySQL 编辑器等功能。在iPad上也可以使用，和Mac同步。&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/ridiculous-fishing-tale-redemption/id601831815?mt=8/&quot;&gt;Ridiculous Fishing&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;这款像素风格的游戏曾经连续三周蝉联北美区免费游戏排行榜前三名，虽然是flash游戏的移植产品，但到了iOS平台上魅力丝毫没减，游戏的刺激性让苹果官方都认可了它。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/57f699bfe8db0494152fcb67dedef9be.jpg&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/wwf-together/id581920331?mt=8&quot;&gt;WWF Together&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;WWF是世界自然基金会，一个全球独立性非政府的自然环境保护机构。这款iPad app为用户提供了一个了解野生动物生存现状的窗口，更懂得它们在野外生存的处境。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/8eadb1d5f169ffa530e0d30501ee3791.jpg&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/evernote/id281796108?mt=8&quot;&gt;Evernote 5&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;去年11月，&lt;a href=&quot;http://www.36kr.com/p/171596.html&quot;&gt;Evernote 5正式发布&lt;/a&gt;。重新设计后的Evernote 5 采用了卡片式设计风格，大幅调整了左侧边栏，在外观设计上下足了功夫。自Evernote面市以来，它已经为用户带来了100多项的新功能。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/48ba9415fb0b09ef8ffe75b9c46aa99a.png&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/yahoo!-weather/id628677149?mt=8&quot;&gt;Yahoo Weather&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;梅姐算得上是一位十分重视优秀设计的CEO了，这一点你看&lt;a href=&quot;http://www.36kr.com/p/202708.html&quot;&gt;Yahoo天气&lt;/a&gt;就能看出来。Yahoo天气的首屏简洁明了，背景图是采取了Flickr 提供的当地 UGC 照片，左下角是醒目的温度信息。向上划动屏幕，则会出现当天预报、未来五天预报、天气详情、地图、雨量、风速和气压等众多信息，都采用了图形化的表现。值得一提的是，所采用的 UGC 背景照片似乎是与当地目前的天气情况相匹配的，比如，现在旧金山午后大雨？你就能看到雨中金门大桥的模样。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;http://a.36krcnd.com/photo/8ae40e253f3e1659ececd3a2ff2d5acb.png&quot; src=&quot;http://a.36krcnd.com/photo/8ae40e253f3e1659ececd3a2ff2d5acb.png&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/letterpress-word-game/id526619424?mt=8&quot;&gt;Letterpress&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Letterpress是开创了“下拉刷新”交互方式的设计师Brichter重出江湖的作品。这款小游戏&lt;a href=&quot;http://www.36kr.com/p/163064.html&quot;&gt;整合了社交 + 拼词的元素&lt;/a&gt;，双人联机竞赛，将文字游戏进行到底。而其视觉设计更是亮眼：美观大方，没有多余的 UI，也没有炫目的阴影，只有简单而清晰的色块，可以说是将设计中的极简主义发挥到了极致。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;http://static.36kr.com/wp-content/uploads/2012/10/letterpress_app_screens.png&quot; src=&quot;http://static.36kr.com/wp-content/uploads/2012/10/letterpress_app_screens.png&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/procreate-sketch-paint-create./id425073498?mt=8&quot;&gt;Procreate&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Procreate是iPad 上一款非常好用的画图软件，使用了 Silica绘图引擎，界面设计也符合设计师使用习惯。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/6ee56f52c99a257d3f1232207105f918.jpg&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/sky-gamblers-air-supremacy/id505730036?mt=8&quot;&gt;Sky Gamblers&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;星河战队，老牌游戏厂商Namco出品的一款飞行模拟游戏，画面细腻，效果刺激，玩家可在 400 万平方英尺的地图上展开空战，在iPad上游戏体验最佳，彻底展现了新iPad的图形运算能力。唯一可惜的是，它售价不菲——18RMB。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/ccc9cdfbebc24fb32e3daf054f875b11.jpg&quot; /&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  图说Mac 进化史
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203915.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/b1475ad70ab0c2f7ecdba79f3ee33646.png&quot; /&gt;&lt;br /&gt;
+再过几个小时，苹果的WWDC大会就要开始了，如果你附近有同样对这场大会感兴趣的朋友，不妨约出来，一边看&lt;a href=&quot;http://www.apple.com/apple-events/june-2013/&quot;&gt;视频直播&lt;/a&gt;，一边关注我们36氪联手&lt;a class=&quot;at_user&quot; href=&quot;http://www.36kr.com/OnlySwan&quot; title=&quot;@OnlySwan&quot;&gt;&lt;i&gt;@&lt;/i&gt;OnlySwan&lt;/a&gt;、@唠科、@孔霸天 三位资深果粉的&lt;a href=&quot;http://www.36kr.com/p/203909.html&quot;&gt;直播活动&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;而在大会正式开始之前，不妨花几分钟时间来看看&lt;a href=&quot;http://iheartapple2.com/&quot;&gt;iheartapple2.com&lt;/a&gt; 总结的Mac进化史吧：&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/4fbcd2e133105c78438458b07c7ef71d.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/b6be7db02ce304f7d1d1343c6237b4fe.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/7765f8b33c47c4f7396db74a8e1ec5d1.png&quot; /&gt;&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  6月11日凌晨1点，36氪全程直播WWDC，资深果粉陪你一起熬夜！
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203909.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;strong&gt;36氪直播页面地址：&lt;a href=&quot;http://www.36kr.com/wwdc&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;http://www.36kr.com/wwdc&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/2a95b254c576f7762d1bf20181e8d336.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;北京时间6月11日凌晨1点，苹果WWDC 2013大会将拉开帷幕！按照惯例，36氪将全程图文直播，欢迎关注！跟以前不一样的是，这一次的直播活动我们还邀请了 @&lt;a href=&quot;http://weibo.com/n/OnlySwan&quot;&gt;OnlySwan&lt;/a&gt;、@&lt;a href=&quot;http://weibo.com/n/%E5%94%A0%E7%A7%91&quot;&gt;唠科&lt;/a&gt;、@&lt;a href=&quot;http://weibo.com/n/%E5%AD%94%E9%9C%B8%E5%A4%A9&quot;&gt;孔霸天&lt;/a&gt; 三位资深果粉一块儿熬夜，参与直播。他们会在36氪WWDC的直播页面上，或精彩点评、或嘻笑怒骂。这么热闹，怎能少了你？&lt;/p&gt;
+
+&lt;p&gt;前两天在WWDC 2013前瞻（&lt;a href=&quot;http://www.36kr.com/p/203873.html&quot;&gt;上&lt;/a&gt;、&lt;a href=&quot;http://www.36kr.com/p/203877.html&quot;&gt;下&lt;/a&gt;）这两篇文章里我们就为大家汇总了WWDC上可能会出现的新东西，还没看的不妨一看，算是为今天半夜的盛会做热身吧。接下来，一起来聊聊大家对WWDC 2013都有什么期待吧，先看看OnlySwan、唠科、孔霸天，以及“比苹果更懂苹果”的John Gruber 都有什么话要说：&lt;/p&gt;
+
+&lt;p&gt;@&lt;a href=&quot;http://weibo.com/n/OnlySwan&quot;&gt;OnlySwan&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;虽然我也和大家一样对苹果的硬件产品有很多期待，但从惯例来看，WWDC最值得期待的依然是iOS 7和OS X10.9。作为一直关注应用开发的我，和广大开发者一样，对新的OS将的改变和提升抱有着极大的兴趣，还有，iOS的扁平化设计是否如我们预料中那样、全新设计的iPhoto，与iTunes结合的流媒体服务iRadio，以及iOS软件试用机制等等。&lt;/p&gt;
+
+&lt;p&gt;OS是苹果产品以及用户体验的精髓所在，不论下一代iPhone和iPad在外观上是否有大的改变，最重要的还是系统与应用的革新会否给我们的生活带来重大改变，也将决定开发者们下一阶段的开发方向与升级进程。&lt;/p&gt;
+
+&lt;p&gt;虽然很多越狱爱好者期待苹果给予更多自定义设置以及系统插件，但作为从第一代就开始使用iPhone的我来讲，则希望苹果一如既往地在带来惊喜的同时保证系统在硬件上的优化和使用体验，包括电量和内存的使用，手势等等。当然，我同样非常期待这次WWDC大会上可能同时发布新的MacBook Air和MacBook Pro系列。&lt;/p&gt;
+
+&lt;p&gt;@&lt;a href=&quot;http://weibo.com/n/%E5%94%A0%E7%A7%91&quot;&gt;唠科&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;其实过去我对 WWDC 一直是关注软件部分多过硬件，关注 OS X 多过 iOS。而这次我却和大家一样十分期待 iOS 7 的「大变动」，好奇 “Jony Ive化”的 iOS 是什么样子。而 OS X 的升级似乎只是例行公事，唯一好奇的就只有这次的版本代号了。&lt;/p&gt;
+
+&lt;p&gt;@&lt;a href=&quot;http://weibo.com/n/%E5%AD%94%E9%9C%B8%E5%A4%A9&quot;&gt;孔霸天&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple距离上一次发布新产品已经有整整200天了，这是近期历史上最长的一次。我们等的是不是太久了？不过看这次WWDC的Logo除了是App图标外，你也可以理解成是由多款不同颜色的 iWatch？传说iOS的icon和设计会变的扁平化，很期待新版大型猫科动物带来惊喜。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/31b69086c0299d42cb987c5926a2ebe1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://daringfireball.net/2013/06/wwdc_2013_expectations&quot;&gt;John Gruber&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;铁杆果粉一般不会对John Gruber这个名字感到陌生，他的博客Daring Fireball可能是这个世界上最专业的介绍苹果相关内容的博客了。自 06 年 John开始全职运营这个博客以来，Daring Fireball已经赢的了“比苹果更懂苹果”的名声。甚至在苹果发布最新操作系统的前几天，苹果全球销售部的负责人Phil Schiller 还会专门给 John 做一对一的演示。我们来看看&lt;a href=&quot;http://daringfireball.net/2013/06/wwdc_2013_expectations&quot;&gt;John对WWDC 2013的期待&lt;/a&gt;：&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;大概在一年前，Tim Cook这样对Walt Mossberg说：“我们会在产品的保密上花两倍的功夫。”&lt;/p&gt;
+
+&lt;p&gt;一年后的今天，WWDC 2013马上又要开始了，但外界似乎还没人能肯定明天苹果会秀什么东西出来。看来，Cook此言非虚。苹果原本就是业界保密工作做的最好的公司，现在神秘感又更甚了。当然，由于John Ive新领导了iOS和OS X设计工作，我们可十分肯定地认为，他们将在大会上向我们展示他们最新的成果。但更确切的消息就没人知道了。自2007年1月第一代iPhone惊艳亮相以来，我好久没有像这回一样，对苹果要发布什么产品一头雾水了。&lt;/p&gt;
+
+&lt;p&gt;在我看来，我们要关注的不仅仅是将在明天亮相的iOS 7的样子。乔布斯那句经典的话一直在我脑海反复播放：&amp;quot;Design is not just what it looks like and feels like. Design is how it works.&amp;quot; 不管iOS 7变成怎样，让它改变的理由绝不仅仅是因为潮流驱使，或是为了不一样而不一样。&lt;/p&gt;
+
+&lt;p&gt;第一代iPhone出现时，全世界的智能手机用的都是带有小按键的键盘，人机交互界面也是鼠标和触控板光标的思路。iPhone却把两样东西结合了起来：智能手机的尺寸和蜂窝联网功能＋人性化的Mac风格的UI设计，触摸屏的引入在这次结合中发挥了非常重要的作用。&lt;/p&gt;
+
+&lt;p&gt;由于这是全新的体验，iPhone软件的设计也与以往的智能手机、Mac或Windows PC不同。苹果开始的时候也需要教育用户快速上手。举一个简单例子： 为什么iOS的按钮看起来都那么有按钮的味道呢（look so very button-y）？这是为了能尽量地清楚告诉用户：这是一个可被点击的按钮。&lt;/p&gt;
+
+&lt;p&gt;现在，看看你的周围吧，任何一个街角、餐馆、办公室或是商场里，人们都在点击着屏幕——我们都学会了！iOS风格的交互不再新鲜，它已成为了个人计算里的标准互动模式。&lt;/p&gt;
+
+&lt;p&gt;2007年推出第一代iPhone时，苹果的挑战是让人们熟悉一种新的人机交互方式。这一问题现在已被很好的解决了。苹果是时候向新的问题进发了。这就是我对明天WWDC大会上苹果的期待。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;你对WWDC 2013又有什么期待呢？欢迎留言讨论，并关注36氪的直播（微博@&lt;a href=&quot;http://weibo.com/wow36kr&quot;&gt;36氪&lt;/a&gt;  ＋  &lt;a href=&quot;http://www.36kr.com/WWDC&quot;&gt;36Kr.com/WWDC&lt;/a&gt;）。&lt;/p&gt;除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	    <div class="item"
+	        
+	            >
+	    
+	      
+	      <div class="light">
+	          <span class="label_area">
+		      
+	          </span>
+	      
+	          <span class="title_area">
+	              <a class="title accordion-toggle" data-toggle="collapse" data-parent="#item_list" href="#">		
+	                  为品牌账号打通社交网站和邮箱：现在Gmail的联系人插件里可以直接关注Google+上的认证企业了
+		      </a>
+	          </span>
+	      </div><!--light-->
+	      
+
+	      <div id="" class="summary accordion-body collapse">
+		<a class="l_link" href="http://www.36kr.com/p/203936.html"> 36氪 | 关注互联网创业 </a>
+		<span class="l_date">  </span>
+
+		<p>
+		  &lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://a.36krcnd.com/photo/b0b62bdba0c3d25e97c8e42c96939054.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;虽然只是一个很小的&lt;a href=&quot;https://support.google.com/plus/answer/3190197&quot;&gt;更新&lt;/a&gt;，但估计Google+上有主页的企业主们能够会心一笑吧——今天Gmail的联系人插件正式向品牌账号开放，用户可以更容易地由此follow该品牌的Google+账号，同时还能看到该品牌账号在Google+上的最新动态。&lt;/p&gt;
+
+&lt;p&gt;希望获取这项功能的品牌，首先得在Google+上申请认证，然后以域名申请一个关联的邮箱，随后在给用户发送邮件时，其Google+上的动态就会显示在邮件右侧的联系人插件中了，这项功能目前是免费开放的。如果你是普通用户的话，想要体验这项功能，也需要同时有Gmail和Google+账号。&lt;/p&gt;
+
+&lt;p&gt;如果听起来觉得抽象，可以看看配图和视频：&lt;/p&gt;
+
+除非注明，本站文章均为原创或编译，转载请注明： 文章来自 &lt;a href=&quot;http://www.36kr.com/&quot;&gt;36氪&lt;/a&gt;&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.36kr.com/p/201073.html?ref=kr_post_feed&quot;&gt;36氪官方iOS应用正式上线，支持『一键下载36氪报道的移动App』和『离线阅读』&lt;/a&gt; &lt;a href=&quot;https://itunes.apple.com/cn/app/36ke/id593394038?l=en&amp;amp;mt=8&quot; target=&quot;_blank&quot;&gt;立即下载！&lt;/a&gt;&lt;/p&gt;
+		</p>
+	      </div><!--summary-->
+	  </div><!--ITEM-->
+	  
+	  
+	</div><!--Content-->
+
+	
+    </div><!--CONTAINER-->
+
+        
+    <div id="footer">
+	<a href="http://marvin-space.info/blog">Marvin</a>'s Coloful Life!
+    </div>
+</body>
+</html>    

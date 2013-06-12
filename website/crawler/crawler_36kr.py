@@ -9,9 +9,10 @@ try:
     import re
     import os
     import sys
-    from publicMethod import write_file_utf8, log_error, to_unicode, clean_content
+    from onepage.publicMethod import to_unicode, errorCatcher
 except ImportError:
         print >> sys.stderr, """\
+[ERROR:Crawler_36kr]
 There was a problem importing one of the Python modules required.
 The error leading to this problem was:
 
@@ -25,23 +26,8 @@ which is:
 %s
 """ % (sys.exc_value, sys.version)
         sys.exit(1)
-	
-def get_info(soup):
-    if soup is None:
-	return None
-    
-    title = get_title(soup)
-    content = clean_content(get_raw_content(soup))
-    return title, content
 
-    
-def get_title(soup):
-    if soup is None:
-        return None
-    
-    raw_title = soup.find('h1')
-    return clean_content(raw_title)
-
+@errorCatcher	
 def get_raw_content(soup):
     try:
         if soup is None:
@@ -50,7 +36,6 @@ def get_raw_content(soup):
         div = soup.find('div', {'class':'mainContent sep-10'})
         p_list = div.find_all('p')
         if p_list == None or len(p_list) == 0:
-            print 'no content'
             return None
 
         content = ''

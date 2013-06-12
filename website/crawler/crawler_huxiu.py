@@ -8,8 +8,8 @@ try:
     from bs4 import BeautifulSoup
     import re
     import os
+    from onepage.publicMethod import to_unicode, errorCatcher
     import sys
-    from publicMethod import write_file_utf8, log_error, to_unicode, clean_content
 except ImportError:
         print >> sys.stderr, """\
 There was a problem importing one of the Python modules required.
@@ -32,7 +32,7 @@ def get_info(soup):
 	return
     
     title = get_title(soup)
-    content = clean_content(get_raw_content(soup))
+    content = get_raw_content(soup)
     return title, content
 
     
@@ -40,10 +40,11 @@ def get_title(soup):
     raw_title = soup.find('h1')
     return clean_content(raw_title)
 
+@errorCatcher
 def get_raw_content(soup):
     try:
         content = soup.find('', {"id": "article_content"})
     except:
         print 'Exception in get_raw_content()'
-    return content
+    return to_unicode(content)
     

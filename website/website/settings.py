@@ -1,5 +1,12 @@
 # Django settings for website project.
 import os
+import sys
+# --- initial ---
+reload(sys)
+sys.setdefaultencoding('utf-8')
+print 'set default encoding=utf-8 in settings.py'
+# === initial ===
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -125,7 +132,6 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
-    #    'rs_demo',
     'onepage',
     'parser',
     'crawler',

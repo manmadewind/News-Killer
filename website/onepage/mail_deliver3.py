@@ -45,8 +45,10 @@ def __send_html_mail(subject, content, list):
 def __get_color(t):
     if t == "l_1":
         return "#f79"
+    
     elif t == "l_2":
-        return "#591"#"#9b2"
+        return "#591"
+    
     else:
         return "#269"
 

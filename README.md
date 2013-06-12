@@ -1,6 +1,12 @@
 Summarize
 =========
 
-中文摘要(Summarize in Chinese)
+# 一览
 
-目前正在开发哟~
+* 框架
+- Django 
+
+* 类库
+- jieba (中文分词)
+- BeautifulSoup (解析html页)
+- feedParser (解析RSS源)

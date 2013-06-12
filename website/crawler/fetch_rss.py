@@ -4,31 +4,22 @@ try:
     from bs4 import BeautifulSoup
     import urllib2		
     import re
-    import os
     import sys
     import feedparser
-    import codecs
     import time
 
     # Mine
     from onepage.models import Article        
-    from onepage.publicMethod import errorCatcher, to_unicode, clean_html_tags
+    from onepage.publicMethod import errorCatcher, to_unicode, clean_html_tags, setDefaultEncoding
     import crawler_huxiu, crawler_36kr, crawler_geekpark, crawler_163
 
 except ImportError:
         print >> sys.stderr, """\
-There was a problem importing one of the Python modules required.
+        ***[fetch_rss]***
+Import error in fetch_rss.py
 The error leading to this problem was:
-
-%s
-
-Please install a package which provides this module, or
-verify that the module is installed correctly.
-
-It's possible that the above module doesn't match the current version of Python,
-which is:
-%s
-""" % (sys.exc_value, sys.version)
+*** %s ***
+""" % (sys.exc_value)
         sys.exit(1)
 
 
@@ -36,11 +27,10 @@ which is:
 ===Global===
 '''
 g_fileName_rssList = 'static/pubconstant/c_rss_list.txt'
-sys.setdefaultencoding('utf-8')
 
 
 def start():
-    for rss in __load_rss_list():
+    for rss in __load_rss_source():
         print '*** *** Now begin to fetch rss %s *** ***' % rss
         fetch_rss(rss)
 
@@ -49,7 +39,7 @@ def fetch_rss(rss_url):
     rss_url = to_unicode(rss_url)
     '''
     获取一个rss地址中的所有内容，包括文章内容
-    ! 返回内容均为unicode 
+    # 返回内容均为unicode 
     '''
     
     article_list = __parse_rss(rss_url)
@@ -58,15 +48,15 @@ def fetch_rss(rss_url):
 
     print 'ALL DONE'
 
-
-def __parse_rss(url):
+@errorCatcher
+def __parse_rss(rss_url):
     '''
     获取一个rss地址中的所有内容，包括文章内容
-    ! 返回内容均为unicode    
+    # 返回内容均为unicode    
     * 出错返回None
     '''
 
-    rss_source = feedparser.parse(url)
+    rss_source = feedparser.parse(rss_url)
     if rss_source is None or\
         rss_source['feed'] is None or\
         rss_source['feed']['title'] is None or\
@@ -75,7 +65,7 @@ def __parse_rss(url):
         return None
 
 
-    rss_source_title = rss_source['feed']['title']    
+    rss_source_title = rss_source['feed']['title']
     if (rss_source['entries'] is None or\
         len(rss_source['entries']) == 0):
         return None
@@ -84,15 +74,15 @@ def __parse_rss(url):
     article_list = []
     for entity in rss_source['entries']:
         if __is_url_new(entity.link) == False:
-            continue        
+            continue
 
         article          = Article()
-        article.content  = clean_html_tags(__get_raw_content(entity.link))
+        article.content  = __get_content(entity.link)
+        article.pub_time = __parseTime(entity.published)
         article.origin   = to_unicode(rss_source_title)
         article.title    = to_unicode(entity.title)
         article.link     = to_unicode(entity.link)
         article.summary  = to_unicode(entity.summary)
-        article.pub_time = to_unicode(__parseTime(entity.published))
 
         article.save()
         article_list.append(article)
@@ -102,19 +92,17 @@ def __parse_rss(url):
 
 def __parseTime(raw_time):
     '''
-    解析发布时间，将其同意化为格式——%Y-%m-%d %H:%M:%S
+    解析发布时间，将其同意化为格式——%Y-%m-%d %H:%M:%S(unicode)
     '''
-
-    pattern = '.+ '
-    m = re.match(pattern, raw_time)
-    if m is None:
-        return time.strftime('%Y-%m-%d %H:%M:%S')
+    
     try:
-        fmt = '%a, %d %b %Y %H:%M:%S'
-        t = time.strptime(raw_time, fmt)
-        return time.strftime('%Y-%m-%d %H:%M:%S', t)
+        raw_time = re.match('.+ ', raw_time).group[0]
+        fmt      = '%a, %d %b %Y %H:%M:%S'
+        t        = time.strptime(raw_time, fmt)
+        return to_unicode(time.strftime('%Y-%m-%d %H:%M:%S', t))
     except:
-        return time.strftime('%Y-%m-%d %H:%M:%S')
+        return to_unicode(time.strftime('%Y-%m-%d %H:%M:%S'))
+
         
 def __is_url_new(p_link):
     '''
@@ -127,10 +115,12 @@ def __is_url_new(p_link):
     else:
         print 'new link~'
         return True
+
     
-def __load_rss_list():
+def __load_rss_source():
     '''
     获取所有RSS源的列表
+    # list
     '''
 
     global g_fileName_rssList
@@ -141,9 +131,10 @@ def __load_rss_list():
     return rss_list
 
 
-def __get_raw_content(url):    
+def __get_content(url):    
     '''
-    获取url对应文章的粗内容(内容格式不确定，并且包含有html标记)
+    获取url对应文章的内容
+    # 纯文字(unicode)
     * 异常返回''
     '''
 
@@ -153,18 +144,18 @@ def __get_raw_content(url):
         if soup is None:
             return ''
 
-
-        content = __get_raw_content_by_crawler(url, soup)
-        return content
-
+        return clean_html_tags(__get_raw_content_by_crawler(url, soup))
+    
     except:
         print 'Exception in __get_raw_content()'
         return ''    
 
 
+@errorCatcher
 def __get_raw_content_by_crawler(url, soup):
     '''
-    通过爬虫获取粗内容
+    通过爬虫获取粗内容()
+    # 返回content (unicode,但是包含有html标记)
     '''
 
     print 'Crawler is working... :%s' % url

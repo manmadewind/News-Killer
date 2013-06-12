@@ -9,7 +9,7 @@ try:
     import re
     import os
     import sys
-    from publicMethod import write_file_utf8, log_error, to_unicode, clean_content
+    from onepage.publicMethod import to_unicode, errorCatcher
 except ImportError:
         print >> sys.stderr, """\
 There was a problem importing one of the Python modules required.

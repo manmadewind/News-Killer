@@ -1,4 +1,5 @@
 #-*- coding:utf-8 -*-
+
 import time
 import datetime
 import ast
@@ -19,14 +20,16 @@ from publicMethod import errorCatcher
 from fsop import save, load
 
 def automake():
-    print 'auto make %s' % time.ctime()
-    #TODO:
+    print '*** auto make *** %s' % time.ctime()
     start()
     print '[auto]1/3 Crawler Done.'
+    
     refine()
     print '[auto]2/3 Refine Done.'
+    
     html = build()
     print '[auto]3/3 Build Done.'
+    
     return html
 
 

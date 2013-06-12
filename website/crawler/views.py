@@ -4,6 +4,7 @@ from django.http import HttpResponse
 # test
 from django.views.static import * 
 from django.conf import settings
+
 # mine
 from crawler_thread import CrawlerThread
 import fetch_rss
