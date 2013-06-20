@@ -2,8 +2,6 @@
 #-*- coding:utf-8 -*-
 
 import os
-import json
-import codecs
 import time
 import datetime
 

@@ -19,6 +19,7 @@ from publicMethod import errorCatcher
 #from sae_memop import save as savemem, loadmem
 from fsop import save, load
 
+@errorCatcher
 def automake():
     print '*** auto make *** %s' % time.ctime()
     start()
@@ -50,7 +51,7 @@ def build():
     html = get_template('1-lan.html').render(Context({'article_list': article_list}))
 
     # save page into memcached
-    save('1-lan', html)
+    save('1lan.html', html)
     
     return html
 
@@ -69,7 +70,7 @@ def __load_articles_today():
 
 @errorCatcher
 def show():
-    html = load('1-lan')
+    html = load('1lan.html')
     if html is None:
         html = automake()
     return html

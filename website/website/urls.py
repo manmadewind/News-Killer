@@ -14,11 +14,11 @@ urlpatterns = patterns('',
     url(r'^refine$', 'parser.views.refine'),
 
     #---one page---#
-    url(r'^build$',  'onepage.views.build'),    
+    url(r'^build$',       'onepage.views.build'),    
     url(r'^show$',        'onepage.onepage.show'),
     url('^makemail$',     'onepage.mail_deliver3.generate_mail'),
     url(r'^send$',        'onepage.mail_deliver3.deliver'),
     url(r'^regist$',      'onepage.views.regist'),
     url(r'^regist_form$', 'onepage.views.regist_form'),    
-    url(r'^$',            'onepage.onepage.show'),
+    url(r'^$',            'onepage.views.show'),
 )

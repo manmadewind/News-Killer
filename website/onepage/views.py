@@ -42,9 +42,9 @@ def regist(request):
         sha.update(str(psw_raw))
         
         user             = User()
-        user.email       = mail              # email
-        user.psw         = sha.hexdigest()     # sha-1 
-        user.pushmail    = pushmail       # 0-false; 1-true
+        user.email       = mail             # email
+        user.psw         = sha.hexdigest()  # sha-1 
+        user.pushmail    = pushmail         # 0-false; 1-true
         user.regist_date = datetime.now()
         
         user.hit_count     = 0
