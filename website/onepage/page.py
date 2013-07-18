@@ -12,7 +12,7 @@ from django.views.static import *
 from django.conf import settings
 
 # mine
-from onepage.models import Article
+from onepage.models import Article, Behavior
 from crawler.fetch_rss import start
 from parser.article_refiner import refine
 from publicMethod import errorCatcher
@@ -32,7 +32,6 @@ def automake():
     print '[auto]3/3 Build Done.'
     
     return html
-
 
 @errorCatcher
 def build():
@@ -70,7 +69,43 @@ def __load_articles_today():
 
 @errorCatcher
 def show():
+    '''
+    显示已经build好的html页
+    '''
     html = load('1lan.html')
     if html is None:
         html = automake()
     return html
+
+
+# --- 行为交互部分 ---
+
+@errorCatcher
+def isLogined():
+    '''
+    判断用户是否已经登陆
+    '''
+    if 'uid' in request.session == True:
+        return True
+    else:
+        return False
+
+@errorCatcher
+def getUidInSession():
+    '''
+    返回存于session中的uid,如果不存在则返回-1
+    '''
+    return request.session.get('uid', -1)
+
+@errorCatcher
+def set_preference(p_uid, p_aid):
+    print 'New behavior:'
+    bh         = Behavior()
+    bh.aid     = p_aid
+    bh.uid     = p_uid
+    bh.op      = 1
+    bh.op_time = time.strftime('%Y-%m-%d %H:%M:%S')
+    bh.save()
+    print bh
+    return bh.op
+    

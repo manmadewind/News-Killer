@@ -11,8 +11,8 @@ def errorCatcher(func):
             result = func(*args, **kwargs)
         except Exception as e:
             print '!!!Error in %s' % str(func)
-            print '\tMessage:%s' % str(e)
-            #print '\tTime:' % time.strftime('%Y-%m-%d %H:%M:%S')            
+            print '\tMessage: %s' % str(e)
+            print '\tTime: %s' % time.strftime('%Y-%m-%d %H:%M:%S')            
             return None
         return result
     return __do__
@@ -50,3 +50,10 @@ def clean_html_tags(content):
     content = re.sub('&nbsp;', " ",   content)
     
     return content
+
+@errorCatcher
+def to_djangoTime(t = time.localtime()):
+    return to_unicode(time.strftime('%Y-%m-%d %H:%M:%S', t))
+
+def to_djangoDate(t = time.localtime()):
+    return to_unicode(time.strftime('%Y-%m-%d', t))

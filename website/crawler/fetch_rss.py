@@ -56,6 +56,7 @@ def __parse_rss(rss_url):
     * 出错返回None
     '''
 
+    # 解析rss基本信息
     rss_source = feedparser.parse(rss_url)
     if rss_source is None or\
         rss_source['feed'] is None or\
@@ -64,7 +65,7 @@ def __parse_rss(rss_url):
         print 'invalid RSS source %s' % url
         return None
 
-
+    
     rss_source_title = rss_source['feed']['title']
     if (rss_source['entries'] is None or\
         len(rss_source['entries']) == 0):
@@ -143,8 +144,10 @@ def __get_content(url):
         soup = BeautifulSoup(html_content)
         if soup is None:
             return ''
+        
+        else:
+            return clean_html_tags(__get_raw_content_by_crawler(url, soup))
 
-        return clean_html_tags(__get_raw_content_by_crawler(url, soup))
     
     except:
         print 'Exception in __get_raw_content()'

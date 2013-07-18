@@ -80,10 +80,13 @@ STATIC_ROOT = ''
 # Example: "http://example.com/static/", "http://static.example.com/"
 STATIC_URL = '/static/'
 
+# TEMP:
+SESSION_ENGINE = 'django.contrib.sessions.backends.signed_cookies'
+
 # Additional locations of static files
 STATICFILES_DIRS = (
     os.path.join(os.path.dirname(os.path.realpath(__file__)), 'static/'),
-    '/Users/marvin/Pro/Git/Crawler/Summarize/website/static/',
+    '/Users/marvin/Pro/Git/1-lan/Summarize/website/static',
     '/var/www/static/',
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
@@ -110,7 +113,7 @@ TEMPLATE_LOADERS = (
 
 MIDDLEWARE_CLASSES = (
 #    'django.middleware.common.CommonMiddleware',
-#    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
 #    'django.middleware.csrf.CsrfViewMiddleware',
 #    'django.contrib.auth.middleware.AuthenticationMiddleware',
 #    'django.contrib.messages.middleware.MessageMiddleware',
@@ -124,8 +127,8 @@ ROOT_URLCONF = 'website.urls'
 WSGI_APPLICATION = 'website.wsgi.application'
 
 TEMPLATE_DIRS = (
-    '/Users/marvin/Pro/Git/Crawler/Summarize/website/templates',
-    '../templates',
+    '/Users/marvin/Pro/Git/1-lan/Summarize/website/template',
+    '../template',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -138,7 +141,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles', # !!! static files !!!
     #    'django.contrib.auth',
     #    'django.contrib.contenttypes',
-    #    'django.contrib.sessions',
+        'django.contrib.sessions',
     #    'django.contrib.sites',
     #    'django.contrib.messages',
 

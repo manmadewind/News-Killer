@@ -21,4 +21,10 @@ urlpatterns = patterns('',
     url(r'^regist$',      'onepage.views.regist'),
     url(r'^regist_form$', 'onepage.views.regist_form'),    
     url(r'^$',            'onepage.views.show'),
+
+    #---TEST---#
+    url(r'^test$', 'onepage.views.testshow'),
+    url(r'^testbtn$', 'onepage.views.testbtn'),
+    url(r'pre', 'onepage.views.set'),
+
 )
