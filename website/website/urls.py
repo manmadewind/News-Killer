@@ -15,7 +15,7 @@ urlpatterns = patterns('',
 
     #---one page---#
     url(r'^build$',       'onepage.views.build'),    
-    url(r'^show$',        'onepage.onepage.show'),
+    url(r'^show$',        'onepage.views.show'),
     url('^makemail$',     'onepage.mail_deliver3.generate_mail'),
     url(r'^send$',        'onepage.mail_deliver3.deliver'),
     url(r'^regist$',      'onepage.views.regist'),

@@ -35,25 +35,30 @@ def automake():
 
 @errorCatcher
 def build():
-    article_list = __load_articles_today()
-    for article in article_list:
-        try:
-            # from string to dict
-            article.mm_labels = ast.literal_eval(article.mm_labels) 
-        except Exception as e:
-            print 'error in build()'
-            print e
-            print article.mm_labels
-            article.mm_labels = None
-
+    article_list = generateContent()
     # generate page content
     html = get_template('1-lan.html').render(Context({'article_list': article_list}))
 
     # save page into memcached
     save('1lan.html', html)
-    
     return html
 
+@errorCatcher
+def generateContent():
+    '''
+    生成具体的内容
+    '''
+    article_list = __load_articles_today()
+    for article in article_list:
+        try:
+            article.mm_labels = ast.literal_eval(article.mm_labels) #from string to dict
+        except Exception as e:
+            print 'error in build()'
+            print e
+            print article.mm_labels
+            article.mm_labels = None
+            
+    return article_list
 
 @errorCatcher
 def __load_articles_today():
@@ -68,6 +73,30 @@ def __load_articles_today():
 
 
 @errorCatcher
+def show_login(uid):
+    template = Template(show())
+    context = Context({
+        'uid': uid
+    })
+    
+    html = template.render(context)
+    return html
+
+
+@errorCatcher
+def dynamicShow(uid):
+    
+    article_list = generateContent()
+    t = get_template('1-lan.html')
+    c = Context({
+        'article_list': article_list,
+        'uid': uid
+    })
+    html = get_template('1-lan.html').render(c)
+    return html
+    
+
+@errorCatcher
 def show():
     '''
     显示已经build好的html页
@@ -75,6 +104,26 @@ def show():
     html = load('1lan.html')
     if html is None:
         html = automake()
+
+
+    #test
+    article_list = generateContent()
+    t = get_template('1-lan.html')
+    c = Context({
+        'article_list': article_list,
+        'uid': -1
+    })
+    html = t.render(c)
+    return html
+        # ---
+    template = get_template('1-lan.html')
+    a_list = load('article_list')
+    context = Context({
+        article_list: a_list,
+        'uid': -1
+    })
+    print 'uid-1;'
+    html = template.render(context)
     return html
 
 

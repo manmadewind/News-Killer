@@ -48,17 +48,17 @@ class User(models.Model):
 
 
 class Behavior(models.Model):
-    aid = models.IntegerField(null=True)
-    uid = models.IntegerField(null=True)
-    op = models.IntegerField(null=True) # 1: like; 2: dislike; 0: NULL
+    aid     = models.IntegerField(null=True)
+    uid     = models.IntegerField(null=True)
+    op      = models.IntegerField(null=True) # 1: like; -1: dislike; 0: NULL
     op_time = models.DateTimeField(null=True)
     def __unicode__(self):
         return ("%d :: %d :: %d" % (self.uid, self.op, self.aid))
 
 class Login(models.Model):
-    uid = models.IntegerField(null=True)
+    uid        = models.IntegerField(null=True)
     login_time = models.DateTimeField(null=True)
-    ip = models.IPAddressField(null=True)
+    ip         = models.IPAddressField(null=True)
 
     def __unicode__(self):
         return self.uid
